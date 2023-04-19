@@ -1,0 +1,1 @@
+Caching is a common technique to improve performance and scalability of an information system. A cache is typically an in-memory storage with high throughput and low latency datasets that are requested often by the client.

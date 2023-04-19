@@ -1,0 +1,1 @@
+**The NFS protocol is optimized for Linux. Originally developed by Sun Microsystems** **[[SMB]] is optimized for Windows and is a native file-sharing protocol in Windows with excellent integration**.

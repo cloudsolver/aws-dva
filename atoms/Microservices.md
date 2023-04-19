@@ -1,0 +1,1 @@
+Microservices is a software architecture style that structures an application as a collection of small, independent, and loosely coupled services. Each service runs as a separate process and communicates with other services through APIs (Application Programming Interfaces) or message-based protocols.

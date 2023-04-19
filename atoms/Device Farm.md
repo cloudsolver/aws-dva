@@ -1,0 +1,2 @@
+Test and interact with your Android, iOS, and web apps on real, physical phones and tablets that are hosted by Amazon Web Services (AWS). #AWSService 
+[more](https://docs.aws.amazon.com/devicefarm/latest/developerguide/welcome.html)

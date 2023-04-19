@@ -1,0 +1,1 @@
+Organizational Units are AWS accounts that belong to the Organization it is under.

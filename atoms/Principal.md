@@ -1,0 +1,3 @@
+A _principal_ is a human user or workload that can make a request for an action or operation on an AWS resource. After authentication, the principal can be granted either permanent or temporary credentials to make requests to AWS, depending on the principal type. IAM users and root user are granted permanent credentials, while roles are granted temporary credentials. As a [best practice](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html), we recommend that you require human users and workloads to access AWS resources using temporary credentials. #secure 
+
+More on [AWS Docs] (https://docs.aws.amazon.com/IAM/latest/UserGuide/intro-structure.html#intro-structure-principal) on the concept.

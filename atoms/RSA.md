@@ -1,0 +1,1 @@
+An asymmetric-key encryption algorithm that uses a pair of public and private keys to encrypt and decrypt data. It is commonly used for secure key exchange and digital signatures.

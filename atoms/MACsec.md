@@ -1,0 +1,1 @@
+MACsec works at layer two and is performed through hardware which offers near line rate speeds. it makes the full 10Gbps or 100 Gbps available for the Direct Connect VIF. In contrast, a Site-to-Site VPN limits the bandwidth to 1.25 Gbps for a single VPN tunnel.

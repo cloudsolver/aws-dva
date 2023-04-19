@@ -1,0 +1,1 @@
+A key exchange protocol that allows two parties to generate a shared secret key over an insecure communication channel. It is commonly used in conjunction with other encryption algorithms like AES or RSA.

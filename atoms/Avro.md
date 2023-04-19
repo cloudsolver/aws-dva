@@ -1,0 +1,2 @@
+Data serialization system. Avro relies on _schemas_. When Avro data is read, the schema used when writing it is always present. This permits each datum to be written with no per-value overheads, making serialization both fast and small. This also facilitates use with dynamic, scripting languages, since data, together with its schema, is fully self-describing.
+https://avro.apache.org/docs/1.2.0/

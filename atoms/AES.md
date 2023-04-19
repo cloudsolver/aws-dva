@@ -1,0 +1,1 @@
+A symmetric-key encryption algorithm that uses a block cipher to encrypt data in fixed-size blocks. It is widely used in modern cryptography for secure communication and data storage.
