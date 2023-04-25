@@ -62,7 +62,8 @@ Sync Data: Use [[DMS]] to sync data to the new RDS DB instance from the old RDS 
 ### In-Flight Encryption
 - TLS-ready by default. 
 - Use AWS TLS root certificate client-side.
-- Force all connections to your DB instance to use SSL by setting the `rds.force_ssl` parameter to true. Once done, reboot your DB instance.
+- #UseCase Force all connections to your DB instance to use SSL by setting the `rds.force_ssl` parameter to true. Once done, reboot your DB instance.
+- #UseCase Enforce SSL on MySQL DB Instance: Execute `REQUIRE SSL` on all DB users.
 #UseCase Amazon RDS creates an SSL certificate and installs the certificate on the DB instance when Amazon RDS provisions the instance. These certificates are signed by a certificate authority. The SSL certificate includes the DB instance endpoint as the Common Name (CN) for the SSL certificate to guard against spoofing attacks.
 ### Security Groups
 - Control network access to RDS/Aurora DB.

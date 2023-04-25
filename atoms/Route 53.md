@@ -7,7 +7,7 @@ Highly scalable and highly available [[DNS]] service that supports various recor
 | Type  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | A     | IPv4. Supports multiple IP addresses #resilient                                                                                                                                                                                                                                                                                                                                                                                              |
-| *ALIAS* | This is an AWS thing.Point a hostname to an AWS Resources e.g. CloudFront. www.rohitsood.com => d3ds3fd.cloudfront.net. Point your zone apex to an Amazon resource e.g. ELB etc.You cannot use an Alias for an EC2 DNS name or S3 Buckets! You can however use it for an ELB, VPC Interface Endpoints, S3 Websites, Elastic Beanstalk infrastructure. AWS Resources expose an AWS hostname that can be used with an A record (alias) - free and has health check. |
+| *ALIAS* | This is an AWS extension to A/AAAA. It will point a hostname to an AWS Resources e.g. CloudFront. www.rohitsood.com => d3ds3fd.cloudfront.net. Point your zone apex to an Amazon resource e.g. ELB etc.You cannot use an Alias for an EC2 DNS name or S3 Buckets! You can however use it for an ELB, VPC Interface Endpoints, S3 Websites, Elastic Beanstalk infrastructure. AWS Resources expose an AWS hostname that can be used with an A record (alias) - free and has health check. |
 | CNAME | Name mapped to another name that has an A record. [RFC 1034](https://tools.ietf.org/html/rfc1034) states that the zone apex must be an A Record. You can created a CNAME for `www.rohitsood.com` but not for `rohitsood.com` because it is an Apex.                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 Note: Any AWS resource that is available with a domain name from AWS should be pointed to with a CNAME `ALIAS`. API Gateway API, AppRunner Service, AppSync domain name, CloudFront distribution, Elastic Beanstalk, ALB, NLB, Global Accelerator, S3 Website endpoint and VPC endpoint. 
@@ -19,9 +19,11 @@ Route 53 supports the following Routing Policies:
 - Single resource that typically serves a single function.
 - Only option is to have multiple IPs in the same record because multiple records with the same name are not possible. Unless you're pointing to an alias record only one can be created.
 - R53 will return the records to the resolver in random order if IP addresses are used.
+- No Health Checks supported.
 #### Weighted Routing Policy
 - Routes to multiple resources based on specified weights (0-255). 
 - R53 will respond with an IP address based on the weights.
+- #UseCase Release new versions of software with a canary, A/B testing of business products.
 #### Failover Routing Policy
 - Routes to primary resource, then fails over to secondary resource if health deteriorates. High availability with an active-passive architecture. #resilient
 - Create a Failover group within the records with the same name. Use a primary and secondary resources for the failover. "You must create one primary and one secondary failover record." 
@@ -34,6 +36,9 @@ Route 53 supports the following Routing Policies:
 #UseCase **Localization and i18n** for users by routing with this policy. 
 #### Geo-proximity Routing Policy
 - By using Route 53 `traffic flow` it routes to resources closest to the request. Shift requests from one location to another.
+#### Client IP Based Routing Policy
+- CIDR blocks for clients.
+- #UseCase Optimize performance, reduce network costs, ISP based route.
 #### Multi-Value Answer Routing Policy
 - Route 53 returns multiple values for the request at random and based on health. 
 - Ability to return multiple health-checkable IP addresses is a way to use DNS to improve availability and load balancing. #resilient #performant 

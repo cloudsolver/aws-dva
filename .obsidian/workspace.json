@@ -1,101 +1,60 @@
 {
   "main": {
-    "id": "458f40a5f134886a",
+    "id": "5933470df4b9decb",
     "type": "split",
     "children": [
       {
-        "id": "27e8078eeaadb1d0",
+        "id": "5bb28e6a8cdfb9ea",
         "type": "tabs",
-        "dimension": 33.65384615384615,
+        "dimension": 33.333333333333336,
         "children": [
           {
-            "id": "9c51424838f49ce1",
+            "id": "88ce18ec5460f202",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "AWS Certified Developer Associate Badge",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/AWS Certified Developer Associate Badge.png\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DVA-C02.md",
+                "file": "atoms/Route 53.md",
                 "mode": "source",
-                "backlinks": false,
                 "source": true
               }
             },
-            "group": "25c4792d2c43af21"
+            "group": "1e494a77c7928f77"
           }
         ]
       },
       {
-        "id": "7816d7bb6b70fca0",
+        "id": "12a5481335dc8cb7",
         "type": "tabs",
-        "dimension": 37.77472527472527,
+        "dimension": 33.333333333333336,
         "children": [
           {
-            "id": "172cf4d1a87d5902",
+            "id": "2e63e80250d3ed8e",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Kinesis",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"atoms/Kinesis.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":true}}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DVA-C02.md",
+                "file": "atoms/Route 53.md",
                 "mode": "preview",
-                "backlinks": false,
                 "source": true
               }
             },
-            "group": "25c4792d2c43af21"
+            "group": "1e494a77c7928f77"
           }
         ]
       },
       {
-        "id": "a4afe114553f858f",
+        "id": "9f0ec8190d97a372",
         "type": "tabs",
-        "dimension": 28.57142857142857,
+        "dimension": 33.333333333333336,
         "children": [
           {
-            "id": "8af7ddc3a9014fc2",
+            "id": "eacdf5d9684202d2",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "DVA-C02.md",
+                "file": "atoms/Route 53.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -106,10 +65,10 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
+                  "collapse-color-groups": false,
                   "colorGroups": [],
                   "collapse-display": false,
-                  "showArrow": true,
+                  "showArrow": false,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
@@ -118,67 +77,28 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8360386601669947,
-                  "close": false
+                  "scale": 1,
+                  "close": true
                 }
-              }
-            },
-            "group": "25c4792d2c43af21"
-          },
-          {
-            "id": "ecc3fb5cc9fe2d36",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "MemoryDB Architecture",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/MemoryDB Architecture.png\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/Memory DB.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2a5da7f8634171a3",
+    "id": "2f3f60eff0946fd6",
     "type": "split",
     "children": [
       {
-        "id": "4a8e778f7c3eee9d",
+        "id": "aa492cdd46108376",
         "type": "tabs",
         "children": [
           {
-            "id": "1b7450e3aee92ce1",
+            "id": "9eeb2255a2eb28a4",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -187,80 +107,67 @@
             }
           },
           {
-            "id": "240ccf7c20f286fa",
+            "id": "549b7cde5b95635a",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/CloudWatch.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9162497db86ceccb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "c933791e23623f6d",
+            "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "Route",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "54388ef6f005d98a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 331.51103591918945
+    "width": 200,
+    "collapsed": true
   },
   "right": {
-    "id": "2b2cdcb0db6ca449",
+    "id": "170f39ae53dbea09",
     "type": "split",
     "children": [
       {
-        "id": "82a6a83077453037",
+        "id": "33bddbdee268e53c",
         "type": "tabs",
         "children": [
           {
-            "id": "b49ee81e9af3c046",
+            "id": "66538f9b1a319dbd",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Memory DB.md",
-                "collapseAll": false,
+                "file": "atoms/Route 53.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
@@ -268,38 +175,20 @@
             }
           },
           {
-            "id": "948788821d86d12d",
+            "id": "718c308637d9a85e",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Memory DB.md",
+                "file": "atoms/Route 53.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c78f14ade2b3b5d6",
+            "id": "cf5fd9e1c24a73bf",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "tag",
               "state": {
@@ -309,103 +198,81 @@
             }
           },
           {
-            "id": "e67c710d03fb699e",
+            "id": "bd3fa859d3005763",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/Memory DB.md"
+                "file": "atoms/Route 53.md"
               }
             }
           },
           {
-            "id": "6274431d7ccfcb3b",
+            "id": "15a8aa9fbdcecf92",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1b7450e3aee92ce1",
+  "active": "88ce18ec5460f202",
   "lastOpenFiles": [
-    "assets/MemoryDB Architecture.png",
-    "atoms/Memory DB.md",
-    "DVA-C02.md",
+    "atoms/RDS.md",
     "atoms/Redis.md",
-    "atoms/RDS Proxy.md",
+    "atoms/Memory DB.md",
+    "assets/MemoryDB Architecture.png",
+    "atoms/ElastiCache.md",
     "atoms/AOF.md",
-    "SAA-C03.md",
-    "assets/AWS Certified Developer Associate Badge.png",
-    "atoms/Kinesis.md",
-    "molecules/Messaging Services.md",
-    "molecules/Machine Learning Services.md",
-    "molecules/Lift and Shift.md",
-    "molecules/DDOS.md",
-    "atoms/Cognito.md",
-    "atoms/OIDC.md",
-    "atoms/API Gateway.md",
-    "molecules/VPC.md",
-    "atoms/App Runner.md",
-    "molecules/ELB.md",
-    "atoms/GWLB.md",
-    "atoms/GENEVE.md",
-    "molecules/Encryption Concepts.md",
-    "molecules/GW.md",
-    "atoms/TGW.md",
-    "atoms/Site-to-Site VPN.md",
-    "atoms/DX.md",
-    "Global Infrastructure.md",
-    "assets/dr_availability_formula.png",
+    "atoms/CredentialsReport.md",
+    "atoms/RDS Proxy.md",
+    "atoms/Aurora.md",
+    "atoms/EBS.md",
+    "atoms/EBS Volume Types.md",
+    "atoms/EFS.md",
+    "atoms/Ports.md",
+    "molecules/IP Address.md",
+    "Performant Architectures.md",
+    "atoms/SG.md",
+    "atoms/Secrets Manager.md",
+    "atoms/Security Groups.md",
+    "atoms/SSM.md",
+    "atoms/SSM Parameter Store.md",
+    "DR.md",
+    "Cost Optimized Architecture.md",
+    "atoms/Storage Gateway.md",
+    "atoms/Budgets.md",
+    "README.md",
+    "Resilient Architectures.md",
+    "SAA-C03 Exam.md",
     "assets/Pasted image 20230417174943.png",
     "assets/EventBridge Rules Notification.png",
+    "assets/S3-SNS-SQS-Lambda Event.png",
+    "assets/CloudWatch Subscription Architecture.png",
+    "assets/cloudwatch-subscription-filter-intergration-context.png",
     "assets/apache_parquet_site.png",
     "assets/iam-scp-permissions_boundary.png",
-    "assets/VMWare on AWS Cloud Architecture.png",
-    "assets/VPG_customer_gateway-NAT_corp_data_center_Hybrid_Cloud_context.png",
-    "assets/site-to-site_VPN_API_Gateway_CloudFront_Route53_context.png",
-    "a",
-    "molecules",
-    "templates/sed54J1gs",
-    "atoms/sedn9Cjgj",
-    "atoms/sedVkI0Cz",
-    "templates",
-    "atoms",
-    "TCP",
-    "assets",
-    "cr.csv"
+    "assets/dr_availability_formula.png",
+    "assets/virtual_private_gateway_hybrid_architecture_customer_gateway_context.png",
+    "Driven",
+    "Event"
   ]
 }
