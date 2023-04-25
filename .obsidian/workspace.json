@@ -1,60 +1,101 @@
 {
   "main": {
-    "id": "5933470df4b9decb",
+    "id": "458f40a5f134886a",
     "type": "split",
     "children": [
       {
-        "id": "5bb28e6a8cdfb9ea",
+        "id": "27e8078eeaadb1d0",
         "type": "tabs",
-        "dimension": 33.333333333333336,
+        "dimension": 33.65384615384615,
         "children": [
           {
-            "id": "88ce18ec5460f202",
+            "id": "9c51424838f49ce1",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "AWS Certified Developer Associate Badge",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/AWS Certified Developer Associate Badge.png\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Redis.md",
+                "file": "DVA-C02.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": true
               }
             },
-            "group": "1e494a77c7928f77"
+            "group": "25c4792d2c43af21"
           }
         ]
       },
       {
-        "id": "12a5481335dc8cb7",
+        "id": "7816d7bb6b70fca0",
         "type": "tabs",
-        "dimension": 33.333333333333336,
+        "dimension": 37.77472527472527,
         "children": [
           {
-            "id": "2e63e80250d3ed8e",
+            "id": "172cf4d1a87d5902",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Kinesis",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"atoms/Kinesis.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":true}}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Redis.md",
+                "file": "DVA-C02.md",
                 "mode": "preview",
+                "backlinks": false,
                 "source": true
               }
             },
-            "group": "1e494a77c7928f77"
+            "group": "25c4792d2c43af21"
           }
         ]
       },
       {
-        "id": "9f0ec8190d97a372",
+        "id": "a4afe114553f858f",
         "type": "tabs",
-        "dimension": 33.333333333333336,
+        "dimension": 28.57142857142857,
         "children": [
           {
-            "id": "eacdf5d9684202d2",
+            "id": "8af7ddc3a9014fc2",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "atoms/Redis.md",
+                "file": "DVA-C02.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -65,10 +106,10 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
+                  "collapse-color-groups": true,
                   "colorGroups": [],
                   "collapse-display": false,
-                  "showArrow": false,
+                  "showArrow": true,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
@@ -77,28 +118,67 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
+                  "scale": 0.8360386601669947,
+                  "close": false
                 }
+              }
+            },
+            "group": "25c4792d2c43af21"
+          },
+          {
+            "id": "ecc3fb5cc9fe2d36",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "MemoryDB Architecture",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/MemoryDB Architecture.png\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Memory DB.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2f3f60eff0946fd6",
+    "id": "2a5da7f8634171a3",
     "type": "split",
     "children": [
       {
-        "id": "aa492cdd46108376",
+        "id": "4a8e778f7c3eee9d",
         "type": "tabs",
         "children": [
           {
-            "id": "9eeb2255a2eb28a4",
+            "id": "1b7450e3aee92ce1",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -107,66 +187,80 @@
             }
           },
           {
-            "id": "549b7cde5b95635a",
+            "id": "240ccf7c20f286fa",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/CloudWatch.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9162497db86ceccb",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "c933791e23623f6d",
-            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "54388ef6f005d98a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 331.51103591918945
   },
   "right": {
-    "id": "170f39ae53dbea09",
+    "id": "2b2cdcb0db6ca449",
     "type": "split",
     "children": [
       {
-        "id": "33bddbdee268e53c",
+        "id": "82a6a83077453037",
         "type": "tabs",
         "children": [
           {
-            "id": "66538f9b1a319dbd",
+            "id": "b49ee81e9af3c046",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Redis.md",
-                "collapseAll": true,
+                "file": "atoms/Memory DB.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
@@ -174,20 +268,38 @@
             }
           },
           {
-            "id": "718c308637d9a85e",
+            "id": "948788821d86d12d",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Redis.md",
+                "file": "atoms/Memory DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "cf5fd9e1c24a73bf",
+            "id": "c78f14ade2b3b5d6",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "tag",
               "state": {
@@ -197,81 +309,103 @@
             }
           },
           {
-            "id": "bd3fa859d3005763",
+            "id": "e67c710d03fb699e",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/Redis.md"
+                "file": "atoms/Memory DB.md"
               }
             }
           },
           {
-            "id": "15a8aa9fbdcecf92",
+            "id": "6274431d7ccfcb3b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "canvas:Create new canvas": true,
-      "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "workspaces:Manage workspace layouts": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2e63e80250d3ed8e",
+  "active": "1b7450e3aee92ce1",
   "lastOpenFiles": [
-    "atoms/ElastiCache.md",
-    "atoms/AOF.md",
+    "assets/MemoryDB Architecture.png",
+    "atoms/Memory DB.md",
+    "DVA-C02.md",
     "atoms/Redis.md",
-    "atoms/CredentialsReport.md",
     "atoms/RDS Proxy.md",
-    "atoms/RDS.md",
-    "atoms/Aurora.md",
-    "atoms/EBS.md",
-    "atoms/EBS Volume Types.md",
-    "atoms/EFS.md",
-    "atoms/Ports.md",
-    "molecules/IP Address.md",
-    "Performant Architectures.md",
-    "atoms/SG.md",
-    "atoms/Secrets Manager.md",
-    "atoms/Security Groups.md",
-    "atoms/SSM.md",
-    "atoms/SSM Parameter Store.md",
-    "DR.md",
-    "Cost Optimized Architecture.md",
-    "atoms/Storage Gateway.md",
-    "atoms/Budgets.md",
-    "README.md",
-    "Resilient Architectures.md",
-    "SAA-C03 Exam.md",
+    "atoms/AOF.md",
+    "SAA-C03.md",
+    "assets/AWS Certified Developer Associate Badge.png",
+    "atoms/Kinesis.md",
+    "molecules/Messaging Services.md",
+    "molecules/Machine Learning Services.md",
+    "molecules/Lift and Shift.md",
+    "molecules/DDOS.md",
+    "atoms/Cognito.md",
+    "atoms/OIDC.md",
+    "atoms/API Gateway.md",
+    "molecules/VPC.md",
+    "atoms/App Runner.md",
+    "molecules/ELB.md",
+    "atoms/GWLB.md",
+    "atoms/GENEVE.md",
+    "molecules/Encryption Concepts.md",
+    "molecules/GW.md",
+    "atoms/TGW.md",
+    "atoms/Site-to-Site VPN.md",
     "atoms/DX.md",
+    "Global Infrastructure.md",
+    "assets/dr_availability_formula.png",
     "assets/Pasted image 20230417174943.png",
     "assets/EventBridge Rules Notification.png",
-    "assets/S3-SNS-SQS-Lambda Event.png",
-    "assets/CloudWatch Subscription Architecture.png",
-    "assets/cloudwatch-subscription-filter-intergration-context.png",
     "assets/apache_parquet_site.png",
     "assets/iam-scp-permissions_boundary.png",
-    "assets/dr_availability_formula.png",
-    "assets/virtual_private_gateway_hybrid_architecture_customer_gateway_context.png",
-    "assets/textract-driverslicense-text-context.png",
-    "Driven",
-    "Event"
+    "assets/VMWare on AWS Cloud Architecture.png",
+    "assets/VPG_customer_gateway-NAT_corp_data_center_Hybrid_Cloud_context.png",
+    "assets/site-to-site_VPN_API_Gateway_CloudFront_Route53_context.png",
+    "a",
+    "molecules",
+    "templates/sed54J1gs",
+    "atoms/sedn9Cjgj",
+    "atoms/sedVkI0Cz",
+    "templates",
+    "atoms",
+    "TCP",
+    "assets",
+    "cr.csv"
   ]
 }
