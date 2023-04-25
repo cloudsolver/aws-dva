@@ -1,0 +1,277 @@
+{
+  "main": {
+    "id": "5933470df4b9decb",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bb28e6a8cdfb9ea",
+        "type": "tabs",
+        "dimension": 33.333333333333336,
+        "children": [
+          {
+            "id": "88ce18ec5460f202",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Redis.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "1e494a77c7928f77"
+          }
+        ]
+      },
+      {
+        "id": "12a5481335dc8cb7",
+        "type": "tabs",
+        "dimension": 33.333333333333336,
+        "children": [
+          {
+            "id": "2e63e80250d3ed8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Redis.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "1e494a77c7928f77"
+          }
+        ]
+      },
+      {
+        "id": "9f0ec8190d97a372",
+        "type": "tabs",
+        "dimension": 33.333333333333336,
+        "children": [
+          {
+            "id": "eacdf5d9684202d2",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "atoms/Redis.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2f3f60eff0946fd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa492cdd46108376",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9eeb2255a2eb28a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "549b7cde5b95635a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/CloudWatch.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9162497db86ceccb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "c933791e23623f6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "170f39ae53dbea09",
+    "type": "split",
+    "children": [
+      {
+        "id": "33bddbdee268e53c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66538f9b1a319dbd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "atoms/Redis.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "718c308637d9a85e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "atoms/Redis.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cf5fd9e1c24a73bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bd3fa859d3005763",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "atoms/Redis.md"
+              }
+            }
+          },
+          {
+            "id": "15a8aa9fbdcecf92",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "2e63e80250d3ed8e",
+  "lastOpenFiles": [
+    "atoms/ElastiCache.md",
+    "atoms/AOF.md",
+    "atoms/Redis.md",
+    "atoms/CredentialsReport.md",
+    "atoms/RDS Proxy.md",
+    "atoms/RDS.md",
+    "atoms/Aurora.md",
+    "atoms/EBS.md",
+    "atoms/EBS Volume Types.md",
+    "atoms/EFS.md",
+    "atoms/Ports.md",
+    "molecules/IP Address.md",
+    "Performant Architectures.md",
+    "atoms/SG.md",
+    "atoms/Secrets Manager.md",
+    "atoms/Security Groups.md",
+    "atoms/SSM.md",
+    "atoms/SSM Parameter Store.md",
+    "DR.md",
+    "Cost Optimized Architecture.md",
+    "atoms/Storage Gateway.md",
+    "atoms/Budgets.md",
+    "README.md",
+    "Resilient Architectures.md",
+    "SAA-C03 Exam.md",
+    "atoms/DX.md",
+    "assets/Pasted image 20230417174943.png",
+    "assets/EventBridge Rules Notification.png",
+    "assets/S3-SNS-SQS-Lambda Event.png",
+    "assets/CloudWatch Subscription Architecture.png",
+    "assets/cloudwatch-subscription-filter-intergration-context.png",
+    "assets/apache_parquet_site.png",
+    "assets/iam-scp-permissions_boundary.png",
+    "assets/dr_availability_formula.png",
+    "assets/virtual_private_gateway_hybrid_architecture_customer_gateway_context.png",
+    "assets/textract-driverslicense-text-context.png",
+    "Driven",
+    "Event"
+  ]
+}

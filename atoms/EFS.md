@@ -1,7 +1,7 @@
 Elastic File System #AWSService  - is a managed [[NFS]] - it can be mounted on many EC2 instances.
 EFS works with [[EC2]] instances in multi-AZ.
 Highly Available, scalable expensive (3x gp2) - pay per use.
-#UseCase CMS, Web Serving, Data Sharing, Wordpress
+#UseCase CMS, Web Serving, Data Sharing, Wordpress site.
 Uses NFSv4.1 protocol, Security Group to control access to EFS.
 Compatible with Linux and not Windows: standard file API and POSIX.
 Encryption at rest using [[KMS]]. #secure 

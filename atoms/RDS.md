@@ -72,15 +72,7 @@ Sync Data: Use [[DMS]] to sync data to the new RDS DB instance from the old RDS 
 	- RDS Child Processes
 	- OS Processes
 
-## RDS Proxy
-Never publicly available.
-- Pool and share DB connections established with the database.
-- Improve database efficiency by reducing stress on the RDS Database instance by minimizing open connections, timeout and optimize. #OperationallyExcellent
-- Serverless, autoscaling and highly available (multi-AZ).
-- Reduced RDS and Aurora failover time by up to 65%.
-- Enforce IAM Auth for DB, and securely store credentials in AWS Secrets Manager. #secure 
-- You cannot connect from the Internet - only within VPC. #secure
-- Lambda functions can connect to RDS Proxy and will not overwhelm the database.
+![[RDS Proxy]]
 
 ## Quiz
 #Q You need to store long-term backups for your Aurora database for disaster recovery and audit purposes. What do you recommend?

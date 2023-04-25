@@ -11,6 +11,7 @@ Six types, grouped in 4 categories. Size, throughput and IOPS are differentiated
 - gp3: 3K IOPS baseline and 125MiB/s. Increase 16 K IOPS and 1000 MiB/s (independent).
  - gp2: 3K IOPS burst. IOPS and Size are linked: 3 IOPS per GB upto 16K IOPS: 5334 GB (5TB) maxes IOPS (dependent). #tip No need to increase gp2 beyond 5TB to increase IOPS.
 ### **io1/io2 (SSD) : Fasted Provisioned IOPS**
+- Only one that supports multi-attach. Max 16 instances.
 - Highest performance SSD volumes for mission critical and high-throughput workloads. #performant 
 - #UseCase Mission-critical low-latency or high-throughput workloads. Boot volumes.
 - io1 and io2 Size: 4GB-16TB. Max: 64K IOPS only for Nitro EC2; 32K IOPS for others. io2 is better than io 1 because you get more durability and more IOPS per GiB. #UseCase More than 32K IOPS with Nitro EC2.

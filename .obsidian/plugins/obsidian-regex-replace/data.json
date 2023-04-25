@@ -1,0 +1,10 @@
+{
+  "findText": "#resilient",
+  "replaceText": "#Resilient",
+  "useRegEx": true,
+  "selOnly": false,
+  "caseInsensitive": true,
+  "processLineBreak": false,
+  "processTab": false,
+  "prefillFind": false
+}
