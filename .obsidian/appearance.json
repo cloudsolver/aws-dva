@@ -1,0 +1,9 @@
+{
+  "accentColor": "#a992f7",
+  "theme": "moonstone",
+  "textFontFamily": "Eurostile,Avenir",
+  "translucency": false,
+  "cssTheme": "Atom",
+  "baseFontSize": 14,
+  "monospaceFontFamily": "Andale Mono,American Typewriter,Hack Nerd Font Mono"
+}

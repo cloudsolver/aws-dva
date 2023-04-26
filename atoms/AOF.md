@@ -1,0 +1,1 @@
+Append Only File (AOF). A persistence mechanism used by [[Redis]].

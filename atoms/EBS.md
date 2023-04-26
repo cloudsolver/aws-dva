@@ -1,5 +1,7 @@
 ## Summary
 Elastic Block Storage is an #AWSService attached storage service for EC2; store up to 16 TiB and supply up to 64,000 IOPS.
+
+
 ## Constraints
 It is locked to an Availability Zone (AZ). The volume and instance must be in the same AZ. In order to move the volume it needs to be snapshot first. Two EBS volumes can be attached to an EC2 instance in the same AZ.
 
@@ -35,3 +37,7 @@ Answer: Amazon EBS volumes are placed in a specific Availability Zone where they
 ### EBS Multi-Attach
 Amazon EBS Multi-Attach enables you to attach a single Provisioned IOPS SSD (`io1` or `io2`) volume to multiple instances that are in the same Availability Zone.
 If it better to use [[EFS]] when required to span AZ as EBS is not a good solution for that. e.g. Web Servers that need to span AZs that use EBS for storage.
+
+### Quiz
+#Q You have launched an EC2 instance with two EBS volumes, the Root volume type and the other EBS volume type to store the data. A month later you are planning to terminate the EC2 instance. What's the default behavior that will happen to each EBS volume?
+Answer: Upon termination, if there is no termination protection - the EBS volume that was the `root` type will be deleted.

@@ -9,8 +9,10 @@ Networking ports are logically addresses on the network that allows software to 
 22 [[FTP|SFTP]]
 80 [[HTTP]]
 443 [[HTTP|HTTPS]]
+2049 [[NFS]]
 3389 [[RDP]]
 5432 PostgreSQL
+
 #### References for Ports
 1. https://ipcisco.com/lesson/network-ports/
 2. https://ipcisco.com/miscellaneous-cheat-sheets/

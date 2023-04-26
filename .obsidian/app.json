@@ -1,0 +1,10 @@
+{
+  "livePreview": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "atoms",
+  "attachmentFolderPath": "assets",
+  "showLineNumber": true,
+  "spellcheck": true,
+  "defaultViewMode": "preview"
+}

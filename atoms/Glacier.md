@@ -1,6 +1,9 @@
 ### Glacier 
 Low cost option for archival and backup. Cost for object retrieval. It is almost impossible to load data directly into Amazon S3 Glacier without using a lifecycle policy. Possible to directly push to Glacier via [[Storage Gateway]] Tape Volumes.
 
+### Glacier Select
+- 400% faster, 80% cheaper
+- Retrieve less data by performing server-side filtering as opposed to client-side filtering.
 ### Instant Retrieval
 - Millisecond retrieval, minimum storage duration 90 days.
 - Quarterly instantaneous retrieval. #UseCase 

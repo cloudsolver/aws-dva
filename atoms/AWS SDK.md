@@ -1,0 +1,1 @@
+Default region `us-east-1` if not region provided.
