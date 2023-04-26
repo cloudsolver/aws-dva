@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Route 53.md",
+                "file": "atoms/S3.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Route 53.md",
+                "file": "atoms/S3.md",
                 "mode": "preview",
                 "source": true
               }
@@ -54,7 +54,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "atoms/Route 53.md",
+                "file": "atoms/S3.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -77,7 +77,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.8975162716347962,
                   "close": true
                 }
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Route",
+                "query": "file: S3",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -146,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "170f39ae53dbea09",
@@ -163,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Route 53.md",
+                "file": "atoms/S3.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Route 53.md",
+                "file": "atoms/S3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/Route 53.md"
+                "file": "atoms/S3.md"
               }
             }
           },
@@ -234,8 +233,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "88ce18ec5460f202",
+  "active": "c933791e23623f6d",
   "lastOpenFiles": [
+    "atoms/Glacier.md",
+    "atoms/S3.md",
+    "atoms/CloudTrail.md",
+    "atoms/STS.md",
+    "atoms/SigV4.md",
+    "atoms/AWS CLI.md",
+    "atoms/AWS SDK.md",
+    "atoms/SSH.md",
+    "atoms/Route 53.md",
     "atoms/RDS.md",
     "atoms/Redis.md",
     "atoms/Memory DB.md",
@@ -254,15 +262,6 @@
     "atoms/SG.md",
     "atoms/Secrets Manager.md",
     "atoms/Security Groups.md",
-    "atoms/SSM.md",
-    "atoms/SSM Parameter Store.md",
-    "DR.md",
-    "Cost Optimized Architecture.md",
-    "atoms/Storage Gateway.md",
-    "atoms/Budgets.md",
-    "README.md",
-    "Resilient Architectures.md",
-    "SAA-C03 Exam.md",
     "assets/Pasted image 20230417174943.png",
     "assets/EventBridge Rules Notification.png",
     "assets/S3-SNS-SQS-Lambda Event.png",
