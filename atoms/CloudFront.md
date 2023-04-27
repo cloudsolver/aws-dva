@@ -6,15 +6,22 @@ As soon as the first byte arrives from the origin, CloudFront begins to forward 
 ![Architecture|384](https://docs.aws.amazon.com/images/AmazonCloudFront/latest/DeveloperGuide/images/how-you-configure-cf.png)
 Fig. Conceptual Architecture
 
-Regional Caches are large than POPs and can hold less popular objects. This saves a trip to the origin servers and keeps objects cached closest to the customer.
+Regional Caches are larger than POPs and can hold less popular objects. This saves a trip to the origin servers and keeps objects cached closest to the customer.
 - Supports 30 GB file size [limits](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html)
 - You can enable geo restrictions in CloudFront. #secure 
 - You can choose **Price Class 100**, viewers in India might experience higher latency than if you choose **Price Class 200**. #CostOptimized 
 - Lambda@Edge with CloudFront enables a variety of ways to customize the content that CloudFront delivers. #UseCase 
 - Accelerate static site delivery, VOD, field-level encryption are some of the UseCases.
 - CloudFront works with [[WAF]] to filter IPs. CloudFront will terminate the connection and VPC will not see Client IPs - so [[NACL]] is not useful.
+- DDOS protection due to global footprint, [[Shield | AWS Shield]] integration and [[WAF | Web Application Firewall]]
 - CloudFront can use HTTPS to communicate with an Elastic Load Balancing load balancer, an Amazon EC2 instance, or another custom origin.
 - CloudFront supports [[RTMP]] for Video and Audio streaming. A CloudFront distribution is either a Web Distribution or an RTMP distribution but not both.
+### CloudFront Signed URLs
+- Trusted Key Group (recommended)
+- AWS Account with CloudFront Key Pair (Not recommended)
+	- Need to manage keys using the root account and the AWS Console
+### CloudFront Field Level Encryption
+- Asymmetric encryption for up to 10 fields. CloudFront will use Public Key. The private key can be used by the back-end application server or db.
 ### CloudFront HA
 Set up an Origin Group with Primary and Secondary Origins. #Resilient 
 You can set up CloudFront with origin failover for scenarios that require high availability. To get started, you create an _origin group_ with two origins: a primary and a secondary. If the primary origin is unavailable or returns specific HTTP response status codes that indicate a failure, CloudFront automatically switches to the secondary origin.

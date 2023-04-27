@@ -35,7 +35,7 @@ The policy below has  a Version, and Statement (array). Each Statement has a sta
 S3 Encryption is on by default, however Bucket policies are evaluated first and is always used first.
 1. SSE-S3: Encryption with Amazon managed keys.
 	1. There is no cost for this. #CostOptimized 
-2. SSE-KMS: User must upload files with an HTTP-Header `x-header-aws-kms`
+2. SSE-KMS: User must upload files with an HTTP-Header `x-amz-server-side-encryption:aws:kms`
 	1. S3 will invoke [[KMS]] API to encrypt objects. Encryption and decryption is done within Amazon S3 service.
 	2. KMS produced key-encryption-keys are S3 Bucket keys that can save costs and improve performance. #BestPractice #performant #CostOptimized 
 3. SSE-C: User supplies encryption key within the header of the request. 
@@ -45,10 +45,13 @@ S3 Encryption is on by default, however Bucket policies are evaluated first and 
 4. Client Side Encryption: The client manages the key as well as the encryption and decryption process.
 	1. S3 will store and retrieve encrypted objects as sent by the client.
 
-A bucket policy can enforce API calls to contain a header - otherwise invocations will be rejected.
+#UseCase Enforce SSE with KMS. A bucket policy can enforce API calls to contain a header - otherwise invocations will be rejected.
 ```
 "Condition":{"StringNotEquals":{"s3:x-amz-server-side-encryption":"aws:kms"}}
 ```
+
+#UseCase Enforce HTTPS only on S3. Create a bucket policy with a Deny effect with the following condition.
+`"Condition":{"Bool":{"aws:SecureTransport":"false"}`
 
 ## MFA Delete
 S3 allows the bucket owner (root account) to enable and disable MFA for deletes. #secure 

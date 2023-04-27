@@ -6,7 +6,7 @@
       {
         "id": "5bb28e6a8cdfb9ea",
         "type": "tabs",
-        "dimension": 33.333333333333336,
+        "dimension": 43.53281853281853,
         "children": [
           {
             "id": "88ce18ec5460f202",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/S3.md",
+                "file": "atoms/CloudFront.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
       {
         "id": "12a5481335dc8cb7",
         "type": "tabs",
-        "dimension": 33.333333333333336,
+        "dimension": 36.38996138996139,
         "children": [
           {
             "id": "2e63e80250d3ed8e",
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/S3.md",
+                "file": "atoms/CloudFront.md",
                 "mode": "preview",
                 "source": true
               }
@@ -46,7 +46,7 @@
       {
         "id": "9f0ec8190d97a372",
         "type": "tabs",
-        "dimension": 33.333333333333336,
+        "dimension": 20.077220077220076,
         "children": [
           {
             "id": "eacdf5d9684202d2",
@@ -54,7 +54,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "atoms/S3.md",
+                "file": "atoms/CloudFront.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: S3",
+                "query": "CloudFront",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -146,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "170f39ae53dbea09",
@@ -162,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/S3.md",
+                "file": "atoms/CloudFront.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/S3.md",
+                "file": "atoms/CloudFront.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/S3.md"
+                "file": "atoms/CloudFront.md"
               }
             }
           },
@@ -233,10 +234,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "c933791e23623f6d",
+  "active": "88ce18ec5460f202",
   "lastOpenFiles": [
-    "atoms/Glacier.md",
+    "atoms/WAF.md",
+    "atoms/CloudFront.md",
+    "atoms/S3 Security.md",
     "atoms/S3.md",
+    "atoms/Glacier.md",
     "atoms/CloudTrail.md",
     "atoms/STS.md",
     "atoms/SigV4.md",
@@ -259,9 +263,6 @@
     "atoms/Ports.md",
     "molecules/IP Address.md",
     "Performant Architectures.md",
-    "atoms/SG.md",
-    "atoms/Secrets Manager.md",
-    "atoms/Security Groups.md",
     "assets/Pasted image 20230417174943.png",
     "assets/EventBridge Rules Notification.png",
     "assets/S3-SNS-SQS-Lambda Event.png",
