@@ -3,39 +3,76 @@ Elastic Container Service requires you to provision and maintain the EC2 instanc
 
 ### ECS Details
 
-**EC2 Launch Type**
-- Each EC2 instance must run the ECS Agent to register in the ECS Cluster so AWS can start top containers.
-- IAM Roles for ECS: ECS Agent. Makes API calls to ECS services, sends container logs to CloudWatch, pull Docker image from ECR, reference sensitive data in Secrets Manager or [[SSM Parameter Store]] Parameter Store. **ECS Task Role** allows each task to have a specific role.
- **Fargate Launch Type**
-No need to provision the infrastructure
-Create Task definitions, assign memory and CPU.
-To scale, just increase the number of tasks.
+#Q How does ECS Autoscale? 
+See [[ECS Autoscaling]]. 
+**Answer**: ASG scales tasks.
 
- [[ELB]] Supported
-[[ALB]] supported and works for most use-cases. [[NLB]] recommended for high throughput / high performance use-cases or to pair it with AWS [[PrivateLink]] 
-> Data Volume with [[EFS]]
-	Mount EFS file systems onto ECS. Tasks running in any AZ will share the same data. S3 cannot be mounted.
+---
+#Q How does ECS perform rolling updates? 
+See [[ECS Rolling Updates]].
+**Answer**: ECS Service Scheduler replaces the current running version of the container with the latest version based on percentages of minimum and maximums.
+
+---
+
+ECS Deployment Configuration **Application Type**
+ - Service to launch a group of tasks handling a long-running computing work e.g. web application
+ - Task
+ - launch a standalone task that runs and terminates e.g. batch job.
+
+---
+#Q How does EC2 launch type work?
+See: [[ECS EC2 Launch Type]]
+Answer:  EC2 behind, ASG, SG and open host ports. Task placement spread, random or binpack used.
+
+---
+
+
+ **Fargate Launch Type**
+- No need to provision the infrastructure
+- Create Task definitions, assign memory and CPU.
+- To scale, just increase the number of tasks.
+
+#Q Which [[ELB]] should be selected for ECS?  Based on the [evidence](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-load-balancing.html)  [[ALB]] is recommended and works for most use-cases. [[NLB]] recommended for high throughput / high performance use-cases or to pair it with AWS [[PrivateLink]]. 
+**Answer**: Choose ALB, and in exceptions NLB.
+
+#Q How can developers get the ECS environment setup without worrying about designing the underlying infrastructure?
+See: [FAQ](https://aws.amazon.com/containers/copilot/faqs/) states that Copilot is a CLI that supports this.
+Answer: By using AWS [[Copilot]] which is a command line interface (CLI) that you can use to quickly launch and manage containerized applications on AWS. It simplifies running applications on Amazon Elastic Container Service (ECS), AWS Fargate, and AWS App Runner.
+
+### Solution Architectures with ECS
+
+#Q How to share a mount point across EC2 and Fargate tasks in an ECS cluster?
+See: [AWS Docs](https://docs.aws.amazon.com/AmazonECS/latest/userguide/efs-volumes.html), recommends mounting  [[EFS]] file systems onto ECS containers. Tasks running in any AZ will share the same data. Warning: S3 cannot be mounted as a file system.
 ![[EFS mounted on Fargate and EC2 Architecture.png | 300]]
 Fig. EFS can be mounted across a variety of workloads
-	#UseCase persistent multi-AZ shared storage for your containers. 
+#UseCase persistent multi-AZ shared storage for your containers. 
+Answer: Use [[EFS]].
 
-ECS Deployment Configuration Application Type
- - `Service` to launch a group of tasks handling a long-running computing work e.g. web application
- - `Task` launch a standalone task that runs and terminates e.g. batch job.
-> ECS Service Auto Scaling
-	AWS Application Auto Scaling (Fargate)
-		ECS Service Average CPU Utilization
-		ECS Service Average Memory Utilization
-		ALB Request Count Per Target
-		ECS Service **[[Auto Scaling]]** (Task Level ) is NOT EC2 Auto Scaling (Auto Scaling Group)
-	EC2 Launch Type Auto Scaling
-		Auto Scaling Group Scaling - 
-		**ECS Cluster Capacity Provider** - automatically provision and scale infrastructure.
+---
 
-> ECS Task Invoked by Event Bridge
-	-   A serverless architecture : object uploaded to S3. S3 sends events to Event Bridge. Event Bridge runs ECS Task.
-	- Amazon Event Bridge can have a timer, that gets triggered. The trigger can start a task.
+#Q How does EC2 Tasks and Fargate Tasks share Data Volumes between container instances?
+See: [Bind Mounts](https://docs.aws.amazon.com/AmazonECS/latest/userguide/using_data_volumes.html) are instance storage on EC2 or ephemeral storage up to 200 GiB.
+![[ECS Bind Mounts.png ]]
+Fig. Bind Mounts
+Answer: Use Bind Mounts for Sidecar pattern.
 
+---
+#Q How can an object stored in [[S3]] trigger a task in ECS?
+See: S3 can trigger an event into [[EventBridge]] which in turn can start a task in ECS. This results in an end-to-end serverless architecture : object uploaded to S3. S3 sends events to Event Bridge. Event Bridge runs ECS Task. 
+
+---
+#Q How can an ECS Task be started on a schedule?
+See: Amazon [[EventBridge]] has a timer that can trigger a task.
+Answer; Use EventBridge to schedule ECS tasks.
+
+---
+#Q How can ECS Tasks handle messages?
+See: Tasks can poll [[SQS]] queues.
+Answer: ECS Tasks can poll queues, and auto scale based on queue depth.
+
+---
+
+### QUIZ
 #Q Which of the following sets of services are used in a typical AWS container stack?
 (a) ECR, ECS, EC2
 (b) ECS, EMR, EC2

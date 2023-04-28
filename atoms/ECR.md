@@ -2,9 +2,12 @@
 Elastic Container Registry is where Docker images are **stored** and managed on AWS. This is integrated with [[Lambda]], [[ECS]], and [[EKS]]. #AWSService 
 
 ### ECR Details
-- Private and Public repo https://gallery.ecr.aws
-- Image Vulnerability Scanning, versioning, image lifecycle.
-#### References for ECR
+
+#Q What are the benefits of ECR?
+See: [Vulnerability Scanning](https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning.html) with integration to [[Inspector]] along with other features such as versioning, image lifecycle and a private and public repo https://gallery.ecr.aws.
+**Answer**: Security, management, private and public repos that are fully integrated into ECS.
+
+**References for ECR**
 1. https://aws.amazon.com/ecr/faqs/
 
 ---
