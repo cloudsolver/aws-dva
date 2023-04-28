@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "ports",
+  "collapse-filter": true,
+  "search": "step scaling",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,

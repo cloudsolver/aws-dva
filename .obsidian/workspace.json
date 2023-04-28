@@ -4,29 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "5bb28e6a8cdfb9ea",
-        "type": "tabs",
-        "dimension": 43.53281853281853,
-        "children": [
-          {
-            "id": "88ce18ec5460f202",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/CloudFront.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "1e494a77c7928f77"
-          }
-        ]
-      },
-      {
         "id": "12a5481335dc8cb7",
         "type": "tabs",
-        "dimension": 36.38996138996139,
+        "dimension": 34.65250965250965,
         "children": [
           {
             "id": "2e63e80250d3ed8e",
@@ -34,27 +14,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/CloudFront.md",
-                "mode": "preview",
+                "file": "atoms/EKS.md",
+                "mode": "source",
                 "source": true
               }
             },
-            "group": "1e494a77c7928f77"
+            "group": "ff78b1b0a02407d1"
           }
         ]
       },
       {
-        "id": "9f0ec8190d97a372",
+        "id": "e557275c887c459a",
         "type": "tabs",
-        "dimension": 20.077220077220076,
+        "dimension": 40.34749034749035,
         "children": [
           {
-            "id": "eacdf5d9684202d2",
+            "id": "e1b148d36a927198",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/EKS.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "ff78b1b0a02407d1"
+          }
+        ]
+      },
+      {
+        "id": "f84098b0c1c8c537",
+        "type": "tabs",
+        "dimension": 25,
+        "children": [
+          {
+            "id": "1cb27ce1f7154c9b",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "atoms/CloudFront.md",
+                "file": "atoms/EKS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -65,9 +65,9 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
+                  "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": false,
+                  "collapse-display": true,
                   "showArrow": false,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
@@ -77,11 +77,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8975162716347962,
-                  "close": true
+                  "scale": 1,
+                  "close": false
                 }
               }
-            }
+            },
+            "group": "ff78b1b0a02407d1"
           }
         ]
       }
@@ -132,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CloudFront",
+                "query": "file: EKS",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -146,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "170f39ae53dbea09",
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/CloudFront.md",
+                "file": "atoms/EKS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/CloudFront.md",
+                "file": "atoms/EKS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/CloudFront.md"
+                "file": "atoms/EKS.md"
               }
             }
           },
@@ -234,10 +234,23 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "88ce18ec5460f202",
+  "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
-    "atoms/WAF.md",
+    "atoms/Copilot.md",
+    "atoms/ECS.md",
+    "atoms/ECR.md",
+    "atoms/ECS EC2 Launch Type.md",
+    "assets/ECS Spread Placement Strategy.png",
+    "atoms/ECS Autoscaling.md",
+    "atoms/Autoscaling Policies.md",
+    "assets/ECS Bind Mounts.png",
+    "atoms/ECS Rolling Updates.md",
+    "assets/ECS Rolling Update Console.png",
+    "atoms/EventBridge.md",
+    "atoms/ASG.md",
+    "README.md",
     "atoms/CloudFront.md",
+    "atoms/WAF.md",
     "atoms/S3 Security.md",
     "atoms/S3.md",
     "atoms/Glacier.md",
@@ -253,25 +266,12 @@
     "atoms/Memory DB.md",
     "assets/MemoryDB Architecture.png",
     "atoms/ElastiCache.md",
-    "atoms/AOF.md",
-    "atoms/CredentialsReport.md",
-    "atoms/RDS Proxy.md",
-    "atoms/Aurora.md",
-    "atoms/EBS.md",
-    "atoms/EBS Volume Types.md",
-    "atoms/EFS.md",
-    "atoms/Ports.md",
-    "molecules/IP Address.md",
-    "Performant Architectures.md",
     "assets/Pasted image 20230417174943.png",
     "assets/EventBridge Rules Notification.png",
     "assets/S3-SNS-SQS-Lambda Event.png",
     "assets/CloudWatch Subscription Architecture.png",
     "assets/cloudwatch-subscription-filter-intergration-context.png",
     "assets/apache_parquet_site.png",
-    "assets/iam-scp-permissions_boundary.png",
-    "assets/dr_availability_formula.png",
-    "assets/virtual_private_gateway_hybrid_architecture_customer_gateway_context.png",
     "Driven",
     "Event"
   ]

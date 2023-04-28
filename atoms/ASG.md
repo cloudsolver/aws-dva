@@ -6,14 +6,7 @@ EC2 Autoscaling Groups are Regional Constructs. Supply AMI to ASG to launch inst
 - Dynamic Scaling: Tracks [CloudWatch](CloudWatch) and acts when it is in ALARM.
 - #WellArchitected For Fault tolerance requires the minimum number of [[EC2]] instances in each [[AZ]] that enables [[Resilient Architectures]] on AWS.
 - EC2 instance launched from the oldest launch configuration is terminated first.
-| Scaling         | Description                                                                                                        |
-| --------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Simple          | The first scaling policy on AWS. No fine-grained controls. CloudWatch alarm can trigger a `%` increase in capacity |
-| Target Tracking | Recommended - especially for CPU metrics. Set the target metric and the scaling group expands or contracts to meet it.                                       |
-| Step            | Useful when ASG continues to react to alarms with no cool down wait.                                                                                                                   |
-
-	- Target Tracking Scaling: Amazon [[CloudWatch]] metric and target value.
-	- Step Scaling: Update capacity based on a SET of scaling adjustments.
+![[Autoscaling Policies]]
 
 - Deleting an ASG terminates EC2 instances
 - ASG can be configured with [[SNS]] to send notifications on scaling events.
