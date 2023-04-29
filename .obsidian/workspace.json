@@ -6,7 +6,7 @@
       {
         "id": "12a5481335dc8cb7",
         "type": "tabs",
-        "dimension": 34.65250965250965,
+        "dimension": 49.51456310679612,
         "children": [
           {
             "id": "2e63e80250d3ed8e",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/EKS.md",
+                "file": "atoms/Elastic Beanstalk.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
       {
         "id": "e557275c887c459a",
         "type": "tabs",
-        "dimension": 40.34749034749035,
+        "dimension": 50.48543689320388,
         "children": [
           {
             "id": "e1b148d36a927198",
@@ -34,52 +34,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/EKS.md",
+                "file": "atoms/Elastic Beanstalk.md",
                 "mode": "preview",
                 "source": true
-              }
-            },
-            "group": "ff78b1b0a02407d1"
-          }
-        ]
-      },
-      {
-        "id": "f84098b0c1c8c537",
-        "type": "tabs",
-        "dimension": 25,
-        "children": [
-          {
-            "id": "1cb27ce1f7154c9b",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "atoms/EKS.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
               }
             },
             "group": "ff78b1b0a02407d1"
@@ -133,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: EKS",
+                "query": "Bean",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -147,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "170f39ae53dbea09",
@@ -163,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/EKS.md",
+                "file": "atoms/Elastic Beanstalk.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/EKS.md",
+                "file": "atoms/Elastic Beanstalk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/EKS.md"
+                "file": "atoms/Elastic Beanstalk.md"
               }
             }
           },
@@ -234,8 +192,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2e63e80250d3ed8e",
+  "active": "e1b148d36a927198",
   "lastOpenFiles": [
+    "atoms/Elastic Beanstalk Lifecycle Policy.md",
+    "atoms/Elastic Beanstalk.md",
+    "atoms/Elastic Beanstalk Deployment Policies.md",
+    "atoms/EKS.md",
     "atoms/Copilot.md",
     "atoms/ECS.md",
     "atoms/ECR.md",
@@ -261,11 +223,7 @@
     "atoms/AWS SDK.md",
     "atoms/SSH.md",
     "atoms/Route 53.md",
-    "atoms/RDS.md",
-    "atoms/Redis.md",
-    "atoms/Memory DB.md",
     "assets/MemoryDB Architecture.png",
-    "atoms/ElastiCache.md",
     "assets/Pasted image 20230417174943.png",
     "assets/EventBridge Rules Notification.png",
     "assets/S3-SNS-SQS-Lambda Event.png",
