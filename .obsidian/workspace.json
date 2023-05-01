@@ -6,7 +6,7 @@
       {
         "id": "12a5481335dc8cb7",
         "type": "tabs",
-        "dimension": 49.51456310679612,
+        "dimension": 47.57281553398058,
         "children": [
           {
             "id": "2e63e80250d3ed8e",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Elastic Beanstalk.md",
+                "file": "atoms/CodeDeploy.md",
                 "mode": "source",
                 "source": true
               }
@@ -24,17 +24,17 @@
         ]
       },
       {
-        "id": "e557275c887c459a",
+        "id": "661bff90eb7cfe0b",
         "type": "tabs",
-        "dimension": 50.48543689320388,
+        "dimension": 52.42718446601942,
         "children": [
           {
-            "id": "e1b148d36a927198",
+            "id": "96a1fef1e3f3505a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Elastic Beanstalk.md",
+                "file": "atoms/CodeDeploy.md",
                 "mode": "preview",
                 "source": true
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Elastic Beanstalk.md",
+                "file": "atoms/CodeDeploy.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Elastic Beanstalk.md",
+                "file": "atoms/CodeDeploy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/Elastic Beanstalk.md"
+                "file": "atoms/CodeDeploy.md"
               }
             }
           },
@@ -192,10 +192,18 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e1b148d36a927198",
+  "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
+    "assets/CodeDeploy Architecture.png",
+    "atoms/CodeDeploy.md",
+    "atoms/CodeBuild.md",
+    "atoms/CodePipeline.md",
+    "assets/CodeBuild Architecture.png",
+    "assets/CodePipeline Manual Approval Security.png",
+    "assets/CodePipeline Triggers.png",
+    "atoms/EB.md",
+    "atoms/CodeCommit.md",
     "atoms/Elastic Beanstalk Lifecycle Policy.md",
-    "atoms/Elastic Beanstalk.md",
     "atoms/Elastic Beanstalk Deployment Policies.md",
     "atoms/EKS.md",
     "atoms/Copilot.md",
@@ -218,18 +226,9 @@
     "atoms/Glacier.md",
     "atoms/CloudTrail.md",
     "atoms/STS.md",
-    "atoms/SigV4.md",
-    "atoms/AWS CLI.md",
-    "atoms/AWS SDK.md",
-    "atoms/SSH.md",
-    "atoms/Route 53.md",
     "assets/MemoryDB Architecture.png",
     "assets/Pasted image 20230417174943.png",
     "assets/EventBridge Rules Notification.png",
-    "assets/S3-SNS-SQS-Lambda Event.png",
-    "assets/CloudWatch Subscription Architecture.png",
-    "assets/cloudwatch-subscription-filter-intergration-context.png",
-    "assets/apache_parquet_site.png",
     "Driven",
     "Event"
   ]
