@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "step scaling",
+  "collapse-filter": false,
+  "search": "Code",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7412380365072084,
+  "scale": 0.983880468520103,
   "close": true
 }

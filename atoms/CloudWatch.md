@@ -5,6 +5,7 @@ System-wide visibility into resource utilization, application performance, and o
 - CloudWatch is basically a metrics repository. AWS services puts metrics in cloudwatch, custom metrics can be put in cloudwatch.
 ![[CloudWatch Metrics Alarms Notifcations Actions Architecture.png|512]]
 - High resolution custom metrics and alarms support 1 second metrics
+- Use `PutMetricData --timestamp` with optional `StorageResolution` - 1, 5, 10, 30 second intervals (expensive). Accepts metric data points two weeks in the past and 2 hours in the future.
 
 | Concept     | Description                                                                                                                                                                                                                                             |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -31,7 +32,7 @@ _Subscriptions are filters that are applied to CloudWatch logs._
 
 >**CloudWatch Subscription Architecture**
 ![[CloudWatch Subscription Architecture.png|512]]
-Fig. Subscription Filter
+Fig. Subscription Filter is central to CloudWatch integrations
 
 > **CloudWatch Multi-Region Multi-Account**
 ![[Cloudwatch Multiaccount Subscription Filter Architecture.png|512]]
@@ -53,6 +54,7 @@ Fig. Subscription Filter across Regions stream to KDS then KDF for near real-tim
 - 
 **CloudWatch Insights**
 Operational visibility into various workloads. 
+
 | CloudWatch Insights | #UseCase                                                                                       |
 | ------------------- | --------------------------------------------------------------------------------------------- |
 | Container           | Aggregate logs and metrics from containers via CloudWatch agent within EKS, ECS, K8S, Fargate |

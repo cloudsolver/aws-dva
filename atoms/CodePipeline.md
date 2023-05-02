@@ -2,6 +2,8 @@
 See: [Features](https://aws.amazon.com/codepipeline/features/?nc=sn&loc=2)
 **Answer**: 
 	Source code: [[ECR]], GitHub, [[S3]]. 
+	Code Review: [[CodeGuru]]
+	Dependencies: [[CodeArtifact]].
 	Deploy: [[CodeDeploy]], [[Fargate]], [[EC2]], [[EB | Elastic Beanstalk]]. 
 	Build: [[CodeBuild]], Jenkins, CloudBees, TeamCity. 
 	Test: AWS Device Farm, [[CodeBuild]]. 
