@@ -6,7 +6,7 @@
       {
         "id": "12a5481335dc8cb7",
         "type": "tabs",
-        "dimension": 47.57281553398058,
+        "dimension": 50.566343042071196,
         "children": [
           {
             "id": "2e63e80250d3ed8e",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/CodeDeploy.md",
+                "file": "atoms/CloudWatch.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
       {
         "id": "661bff90eb7cfe0b",
         "type": "tabs",
-        "dimension": 52.42718446601942,
+        "dimension": 49.433656957928804,
         "children": [
           {
             "id": "96a1fef1e3f3505a",
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/CodeDeploy.md",
+                "file": "atoms/CloudWatch.md",
                 "mode": "preview",
                 "source": true
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/CodeDeploy.md",
+                "file": "atoms/CloudWatch.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/CodeDeploy.md",
+                "file": "atoms/CloudWatch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/CodeDeploy.md"
+                "file": "atoms/CloudWatch.md"
               }
             }
           },
@@ -194,10 +194,20 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
-    "assets/CodeDeploy Architecture.png",
-    "atoms/CodeDeploy.md",
-    "atoms/CodeBuild.md",
+    "atoms/CloudFormation.md",
+    "assets/Pasted image 20230501184645.png",
+    "assets/CloudFormation Conditions.png",
+    "atoms/CodeGuru.md",
     "atoms/CodePipeline.md",
+    "atoms/CodeArtifact.md",
+    "assets/CodeArtifact Domain Architecture.png",
+    "assets/CodeArtifact Repository Retention.png",
+    "assets/CodeArtifact-CodePipeline EventBridge Architecture.png",
+    "assets/CodeArtifact Architecture.png",
+    "atoms/CodeStar.md",
+    "atoms/CodeDeploy.md",
+    "assets/CodeDeploy Architecture.png",
+    "atoms/CodeBuild.md",
     "assets/CodeBuild Architecture.png",
     "assets/CodePipeline Manual Approval Security.png",
     "assets/CodePipeline Triggers.png",
@@ -210,25 +220,15 @@
     "atoms/ECS.md",
     "atoms/ECR.md",
     "atoms/ECS EC2 Launch Type.md",
-    "assets/ECS Spread Placement Strategy.png",
     "atoms/ECS Autoscaling.md",
     "atoms/Autoscaling Policies.md",
-    "assets/ECS Bind Mounts.png",
     "atoms/ECS Rolling Updates.md",
-    "assets/ECS Rolling Update Console.png",
     "atoms/EventBridge.md",
     "atoms/ASG.md",
     "README.md",
     "atoms/CloudFront.md",
     "atoms/WAF.md",
     "atoms/S3 Security.md",
-    "atoms/S3.md",
-    "atoms/Glacier.md",
-    "atoms/CloudTrail.md",
-    "atoms/STS.md",
-    "assets/MemoryDB Architecture.png",
-    "assets/Pasted image 20230417174943.png",
-    "assets/EventBridge Rules Notification.png",
     "Driven",
     "Event"
   ]
