@@ -6,7 +6,6 @@
       {
         "id": "12a5481335dc8cb7",
         "type": "tabs",
-        "dimension": 50.566343042071196,
         "children": [
           {
             "id": "2e63e80250d3ed8e",
@@ -14,32 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/CloudWatch.md",
+                "file": "atoms/X-Ray.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": true
               }
             },
-            "group": "ff78b1b0a02407d1"
+            "group": "f5cbb00fc9f012dc"
           }
         ]
       },
       {
-        "id": "661bff90eb7cfe0b",
+        "id": "6756da495276fc05",
         "type": "tabs",
-        "dimension": 49.433656957928804,
         "children": [
           {
-            "id": "96a1fef1e3f3505a",
+            "id": "bda0b78dc73d3e42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/CloudWatch.md",
+                "file": "atoms/X-Ray.md",
                 "mode": "preview",
+                "backlinks": true,
                 "source": true
               }
             },
-            "group": "ff78b1b0a02407d1"
+            "group": "f5cbb00fc9f012dc"
           }
         ]
       }
@@ -61,18 +61,6 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "549b7cde5b95635a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/CloudWatch.md",
-                "mode": "preview",
-                "source": true
               }
             }
           },
@@ -99,13 +87,11 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "170f39ae53dbea09",
@@ -121,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/CloudWatch.md",
+                "file": "atoms/X-Ray.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/CloudWatch.md",
+                "file": "atoms/X-Ray.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/CloudWatch.md"
+                "file": "atoms/X-Ray.md"
               }
             }
           },
@@ -194,6 +180,13 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
+    "assets/X-Ray Architecture.png",
+    "atoms/X-Ray.md",
+    "atoms/CloudWatch.md",
+    "atoms/EBS Volume Types.md",
+    "atoms/Untitled 1.md",
+    "atoms/Shared Responsibility Model.md",
+    "DR.md",
     "atoms/CloudFormation.md",
     "assets/Pasted image 20230501184645.png",
     "assets/CloudFormation Conditions.png",
@@ -210,7 +203,6 @@
     "atoms/CodeBuild.md",
     "assets/CodeBuild Architecture.png",
     "assets/CodePipeline Manual Approval Security.png",
-    "assets/CodePipeline Triggers.png",
     "atoms/EB.md",
     "atoms/CodeCommit.md",
     "atoms/Elastic Beanstalk Lifecycle Policy.md",
@@ -223,12 +215,6 @@
     "atoms/ECS Autoscaling.md",
     "atoms/Autoscaling Policies.md",
     "atoms/ECS Rolling Updates.md",
-    "atoms/EventBridge.md",
-    "atoms/ASG.md",
-    "README.md",
-    "atoms/CloudFront.md",
-    "atoms/WAF.md",
-    "atoms/S3 Security.md",
     "Driven",
     "Event"
   ]
