@@ -3,13 +3,19 @@ System-wide visibility into resource utilization, application performance, and o
 #AWSService 
 ### CloudWatch Details
 - CloudWatch is basically a metrics repository. AWS services puts metrics in cloudwatch, custom metrics can be put in cloudwatch.
-![[CloudWatch Metrics Alarms Notifcations Actions Architecture.png|512]]
+![[CloudWatch Metrics Alarms Notifcations Actions Architecture.png | 512]]
 - High resolution custom metrics and alarms support 1 second metrics
 - Use `PutMetricData --timestamp` with optional `StorageResolution` - 1, 5, 10, 30 second intervals (expensive). Accepts metric data points two weeks in the past and 2 hours in the future.
+- CloudWatch Alarms can take actions such as Terminate EC2 Instance.
+- CloudWatch Unified Agent - is an installable agent that provides a lot more metrics e.g. memory consumption, swap space
+---
 
-| Concept     | Description                                                                                                                                                                                                                                             |
+#Q What are the main concepts of CloudWatch?
+Answer: The following table outlines:
+
+| Concept     | Description|
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Namespace   | A _namespace_ is a container for CloudWatch metrics.                                                                                                                                                                                                    |
+| Namespace   | A _namespace_ is a container for CloudWatch metrics.|
 | Metric      | A metric represents a time-ordered set of data points that are published to CloudWatch.                                                                                                                                                                 |
 | Timestamp   | Each metric data point must be associated with a time stamp in UTC - Coordinated Universal Time                                                                                                                                                         |
 | Dimension   | A _dimension_ is a name/value pair that is part of the identity of a metric. You can assign up to 30 dimensions to a metric.                                                                                                                            |
@@ -21,6 +27,20 @@ System-wide visibility into resource utilization, application performance, and o
 | Percentile  | Percentiles are often used to isolate anomalies.                                                                                                                                                                                                        |
 | Alarm       | You can use an _alarm_ to automatically initiate actions on your behalf. An alarm watches a single metric over a specified time period, and performs one or more specified actions, based on the value of the metric relative to a threshold over time. |
 
+---
+#### CloudWatch Synthetics Canary
+- You can take screenshots of the UI
+- Configurable script that monitors APIs and Apps/Web
+- Write in Node.JS, or Python. Access headless Chrome.
+- Canary Blueprint:
+	- Heartbeat - load URL, store screenshot and an HTTP archive file
+	- API Canary,
+	- Broken Link Checker, 
+	- Visual Monitoring
+	- Canary Recorder
+	- GUI Workflow Builder
+---
+
 #### CloudWatch Integrations
 | Timing         | Integration Type                      |
 | -------------- | ------------------------------------- |
@@ -29,6 +49,8 @@ System-wide visibility into resource utilization, application performance, and o
 | Real Time      | Lambda                                |
 
 _Subscriptions are filters that are applied to CloudWatch logs._ 
+
+---
 
 >**CloudWatch Subscription Architecture**
 ![[CloudWatch Subscription Architecture.png|512]]
@@ -61,7 +83,6 @@ Operational visibility into various workloads.
 | Lambda              | Cold starts, lambda worker shutdown.                                                          |
 | Contributor         | Top-N contributors based on CloudWatch logs                                                   |
 | Application         | SageMaker driven to isolate ongoing issues. EventBridge and [[SSM Parameter Store]] OpsCenter integration         |
-
 
 
 ---
