@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/X-Ray.md",
+                "file": "atoms/SQS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/X-Ray.md",
+                "file": "atoms/SQS.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Bean",
+                "query": "SQS",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -87,7 +87,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/X-Ray.md",
+                "file": "atoms/SQS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/X-Ray.md",
+                "file": "atoms/SQS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/X-Ray.md"
+                "file": "atoms/SQS.md"
               }
             }
           },
@@ -180,8 +181,13 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
-    "assets/X-Ray Architecture.png",
+    "atoms/Kinesis.md",
+    "atoms/Kinesis Data Firehose.md",
+    "assets/Kinesis Lambda Consumer.png",
+    "atoms/SNS.md",
+    "atoms/SQS.md",
     "atoms/X-Ray.md",
+    "assets/X-Ray Architecture.png",
     "atoms/CloudWatch.md",
     "atoms/EBS Volume Types.md",
     "atoms/Untitled 1.md",
@@ -202,7 +208,6 @@
     "assets/CodeDeploy Architecture.png",
     "atoms/CodeBuild.md",
     "assets/CodeBuild Architecture.png",
-    "assets/CodePipeline Manual Approval Security.png",
     "atoms/EB.md",
     "atoms/CodeCommit.md",
     "atoms/Elastic Beanstalk Lifecycle Policy.md",
@@ -212,9 +217,6 @@
     "atoms/ECS.md",
     "atoms/ECR.md",
     "atoms/ECS EC2 Launch Type.md",
-    "atoms/ECS Autoscaling.md",
-    "atoms/Autoscaling Policies.md",
-    "atoms/ECS Rolling Updates.md",
     "Driven",
     "Event"
   ]
