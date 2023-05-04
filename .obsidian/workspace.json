@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/SQS.md",
+                "file": "atoms/Lambda.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/SQS.md",
+                "file": "atoms/Lambda.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SQS",
+                "query": "Lambda",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/SQS.md",
+                "file": "atoms/Lambda.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/SQS.md",
+                "file": "atoms/Lambda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/SQS.md"
+                "file": "atoms/Lambda.md"
               }
             }
           },
@@ -181,11 +181,13 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
+    "assets/Lambda-Kinesis Batch.png",
+    "atoms/Lambda.md",
+    "atoms/SQS.md",
     "atoms/Kinesis.md",
     "atoms/Kinesis Data Firehose.md",
     "assets/Kinesis Lambda Consumer.png",
     "atoms/SNS.md",
-    "atoms/SQS.md",
     "atoms/X-Ray.md",
     "assets/X-Ray Architecture.png",
     "atoms/CloudWatch.md",
@@ -207,7 +209,6 @@
     "atoms/CodeDeploy.md",
     "assets/CodeDeploy Architecture.png",
     "atoms/CodeBuild.md",
-    "assets/CodeBuild Architecture.png",
     "atoms/EB.md",
     "atoms/CodeCommit.md",
     "atoms/Elastic Beanstalk Lifecycle Policy.md",
@@ -215,8 +216,6 @@
     "atoms/EKS.md",
     "atoms/Copilot.md",
     "atoms/ECS.md",
-    "atoms/ECR.md",
-    "atoms/ECS EC2 Launch Type.md",
     "Driven",
     "Event"
   ]
