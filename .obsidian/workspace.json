@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Lambda.md",
+                "file": "atoms/DynamoDB.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Lambda.md",
+                "file": "atoms/DynamoDB.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -78,13 +78,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Lambda",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "b1ee6e5a36533f4c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ],
@@ -108,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Lambda.md",
+                "file": "atoms/DynamoDB.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Lambda.md",
+                "file": "atoms/DynamoDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/Lambda.md"
+                "file": "atoms/DynamoDB.md"
               }
             }
           },
@@ -181,8 +189,11 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
-    "assets/Lambda-Kinesis Batch.png",
+    "assets/DynamoDB RCU WCU Formula.png",
+    "atoms/DynamoDB.md",
+    "assets/DynamoDB Partitioning.png",
     "atoms/Lambda.md",
+    "assets/Lambda-Kinesis Batch.png",
     "atoms/SQS.md",
     "atoms/Kinesis.md",
     "atoms/Kinesis Data Firehose.md",
@@ -204,10 +215,8 @@
     "assets/CodeArtifact Domain Architecture.png",
     "assets/CodeArtifact Repository Retention.png",
     "assets/CodeArtifact-CodePipeline EventBridge Architecture.png",
-    "assets/CodeArtifact Architecture.png",
     "atoms/CodeStar.md",
     "atoms/CodeDeploy.md",
-    "assets/CodeDeploy Architecture.png",
     "atoms/CodeBuild.md",
     "atoms/EB.md",
     "atoms/CodeCommit.md",
@@ -215,7 +224,6 @@
     "atoms/Elastic Beanstalk Deployment Policies.md",
     "atoms/EKS.md",
     "atoms/Copilot.md",
-    "atoms/ECS.md",
     "Driven",
     "Event"
   ]
