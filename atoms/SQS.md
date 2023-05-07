@@ -27,6 +27,17 @@ Just use standard SQS queues. FIFO queues will not be helpful. The application t
 
 #### Decouple Front End Web from Back End
 ![](sqs-decouple-architecture.png)
+
+#### FIFO Deduplication
+
+There are two ways Deduplication works - SQS FIFO has a 5 minute window where duplication logic is applied.
+- **Content-Based:** SHA-256 Hashes of the body are compared and if these are computed to the same hashes, the second message is dropped.
+- **ID Based:** Deduplication IDs are checked, and if there is another message within the windows, the message is dropped.
+
+#### FIFO MessageGroupID
+- MessageGroupID: All messages will go to a consumer, and messages within the group will be in order. Ordering is within a group.
+- See: [Blog Complex Ordering with FIFO](https://aws.amazon.com/blogs/compute/solving-complex-ordering-challenges-with-amazon-sqs-fifo-queues/)
+
 #### References for SQS
 1. https://aws.amazon.com/sqs/faqs/
 

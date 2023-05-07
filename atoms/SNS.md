@@ -6,7 +6,16 @@ Simple Notification Service is a fully managed instantaneous pub/sub service for
 - SNS is both highly reliable and scalable, it provides significant advantages to developers who build applications that rely on real-time events.
 - SNS can send `Email-JSON` for applications to read and process emails. Humans get text-based emails only.
 - SNS Mobile Push lets you use SNS to deliver push notifications to Apple, Google, FireOS and Windows devices as well as Android.
-
+#### Publishing Models
+- Topic Publish
+	- Create a topic
+	- Create a subscription
+	- Publish to the topic.
+- Direct Publish
+	- Create a platform application
+	- Create a platform endpoint
+	- Publish to platform endpoint
+	- Various Mobile SDKs.
 #### SNS Security
 SNS Access Policies (similar to S3 bucket policies)
 - Useful for cross-account access to SNS topics

@@ -5,6 +5,7 @@ In order to use this repository. Please download Obsidian and open this folder a
 @DigitalDivvy
 @CloudSolver
 
+There are many resources online. It is best to use the following.
 ### AWS Resources
 1. [AWS Learning Library](https://www.aws.training/LearningLibrary/)
 2. [AWS Self Paced Labs](https://www.amazon.com/training/self-paced-labs/)
