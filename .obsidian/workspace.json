@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/DynamoDB.md",
+                "file": "atoms/SAM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/DynamoDB.md",
+                "file": "atoms/SAM.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Clou",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/DynamoDB.md",
+                "file": "atoms/SAM.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/DynamoDB.md",
+                "file": "atoms/SAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/DynamoDB.md"
+                "file": "atoms/SAM.md"
               }
             }
           },
@@ -189,8 +189,11 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
-    "assets/DynamoDB RCU WCU Formula.png",
+    "atoms/CloudFormation.md",
+    "atoms/SAM.md",
+    "atoms/API Gateway.md",
     "atoms/DynamoDB.md",
+    "assets/DynamoDB RCU WCU Formula.png",
     "assets/DynamoDB Partitioning.png",
     "atoms/Lambda.md",
     "assets/Lambda-Kinesis Batch.png",
@@ -206,7 +209,6 @@
     "atoms/Untitled 1.md",
     "atoms/Shared Responsibility Model.md",
     "DR.md",
-    "atoms/CloudFormation.md",
     "assets/Pasted image 20230501184645.png",
     "assets/CloudFormation Conditions.png",
     "atoms/CodeGuru.md",
@@ -223,7 +225,6 @@
     "atoms/Elastic Beanstalk Lifecycle Policy.md",
     "atoms/Elastic Beanstalk Deployment Policies.md",
     "atoms/EKS.md",
-    "atoms/Copilot.md",
     "Driven",
     "Event"
   ]
