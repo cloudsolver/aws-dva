@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/CDK.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -31,12 +31,9 @@
             "id": "bda0b78dc73d3e42",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "atoms/SAM.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
+                "file": "assets/CDK-Commands.png"
               }
             },
             "group": "f5cbb00fc9f012dc"
@@ -116,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/CDK.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/CDK.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/SAM.md"
+                "file": "atoms/CDK.md"
               }
             }
           },
@@ -189,8 +186,12 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
+    "assets/CDK-Commands.png",
+    "atoms/CDK.md",
     "atoms/CloudFormation.md",
     "atoms/SAM.md",
+    "assets/SAM-CodeDeploy.png",
+    "assets/SAM Architecture Flow.png",
     "atoms/API Gateway.md",
     "atoms/DynamoDB.md",
     "assets/DynamoDB RCU WCU Formula.png",
@@ -214,17 +215,12 @@
     "atoms/CodeGuru.md",
     "atoms/CodePipeline.md",
     "atoms/CodeArtifact.md",
-    "assets/CodeArtifact Domain Architecture.png",
-    "assets/CodeArtifact Repository Retention.png",
-    "assets/CodeArtifact-CodePipeline EventBridge Architecture.png",
     "atoms/CodeStar.md",
     "atoms/CodeDeploy.md",
     "atoms/CodeBuild.md",
     "atoms/EB.md",
     "atoms/CodeCommit.md",
     "atoms/Elastic Beanstalk Lifecycle Policy.md",
-    "atoms/Elastic Beanstalk Deployment Policies.md",
-    "atoms/EKS.md",
     "Driven",
     "Event"
   ]
