@@ -21,7 +21,7 @@ See: [Docs](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-us
 (c) Cognito Identity Pool
 (d) App Sync
 See: [Docs](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-sync.html)
-Answer: The current recommendation is to use App Sync otherwise if you're already a user - it is Cognito Sync.
+Answer: The current recommendation is to use [[AppSync]] otherwise if you're already a user - it is Cognito Sync.
 
 #Q You would like to authenticate your users against Facebook before they are able to make requests to your API hosted by API Gateway. What should you use to make a seamless authentication integration?
 (a) Cognito User Pool
