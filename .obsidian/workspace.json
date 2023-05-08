@@ -6,6 +6,7 @@
       {
         "id": "12a5481335dc8cb7",
         "type": "tabs",
+        "dimension": 54.633204633204635,
         "children": [
           {
             "id": "2e63e80250d3ed8e",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/CDK.md",
+                "file": "atoms/Cognito User Pools.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -26,14 +27,18 @@
       {
         "id": "6756da495276fc05",
         "type": "tabs",
+        "dimension": 45.366795366795365,
         "children": [
           {
             "id": "bda0b78dc73d3e42",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/CDK-Commands.png"
+                "file": "atoms/Cognito User Pools.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
               }
             },
             "group": "f5cbb00fc9f012dc"
@@ -75,8 +80,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Clou",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -113,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/CDK.md",
+                "file": "atoms/Cognito User Pools.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/CDK.md",
+                "file": "atoms/Cognito User Pools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/CDK.md"
+                "file": "atoms/Cognito User Pools.md"
               }
             }
           },
@@ -186,8 +191,15 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
-    "assets/CDK-Commands.png",
+    "atoms/Cognito Identity Pool.md",
+    "assets/Cognito CIP Architecture Social IdP.png",
+    "atoms/Cognito.md",
+    "atoms/Cognito User Pools.md",
+    "atoms/ALB.md",
+    "assets/ALB IdP Architecture.png",
+    "Cognito User Pools.pdf",
     "atoms/CDK.md",
+    "assets/CDK-Commands.png",
     "atoms/CloudFormation.md",
     "atoms/SAM.md",
     "assets/SAM-CodeDeploy.png",
@@ -210,17 +222,11 @@
     "atoms/Untitled 1.md",
     "atoms/Shared Responsibility Model.md",
     "DR.md",
-    "assets/Pasted image 20230501184645.png",
-    "assets/CloudFormation Conditions.png",
     "atoms/CodeGuru.md",
     "atoms/CodePipeline.md",
     "atoms/CodeArtifact.md",
     "atoms/CodeStar.md",
     "atoms/CodeDeploy.md",
-    "atoms/CodeBuild.md",
-    "atoms/EB.md",
-    "atoms/CodeCommit.md",
-    "atoms/Elastic Beanstalk Lifecycle Policy.md",
     "Driven",
     "Event"
   ]

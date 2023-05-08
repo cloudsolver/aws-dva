@@ -41,6 +41,13 @@ Answer: Target Scaling Policy.
 (d) Enable CloudWatch logs
 Answer: This is a good question. Basically, you need to see access logs so that is what you need to enable.
 
+#### ALB Authentication
+#Q How does ALB authenticate users?
+See:
+Answer: OIDC compliant IdP. Must use HTTPS to set `authenticate-oidc` and `authenticate-cognito`. On authenticated, it can allow or deny.
+![[ALB IdP Architecture.png]]
+Fig. ALB IdP Architecture
+
 ### Constraints
 
 **An Application Load Balancer cannot be assigned an Elastic IP address** (static IP address). However, a Network Load Balancer can be assigned one Elastic IP address for each Availability Zone it uses. 
