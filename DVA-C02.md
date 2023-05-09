@@ -73,7 +73,7 @@
 **Skill set 9**
 - Creating application test events (for example, JSON payloads for testing Lambda, API Gateway, AWS SAM resources)  
 - Deploying API resources to various environments  
-Skills set 12- Creating application environments that use approved versions for integration testing (for example, Lambda aliases, container image tags, AWS Amplify branches, AWS Copilot environments)  
+Skills set 12- Creating application environments that use approved versions for integration testing (for example, Lambda aliases, container image tags, AWS [[Amplify]] branches, AWS Copilot environments)  
 - Implementing and deploying infrastructure as code (IaC) templates (for example, AWS SAM templates, AWS CloudFormation templates)  
 - Managing environments in individual AWS services (for example, differentiating between development, test, and production in API Gateway.
 

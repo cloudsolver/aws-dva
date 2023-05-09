@@ -1,9 +1,20 @@
-### Summary of STS
-Amazon STS is a Secure Tokenization Service that enables limited privilege, temporary credentials for users to access Amazon services. #AWSService 
-### STS Details
+#Q What is STS?
+Secure Tokenization Service that enables limited privilege, temporary credentials for users to access Amazon services. #AWSService 
+
+#Q What are main services that utilize STS?
 - [[Cognito]] utilizes STS
 - STS supports AWS [[CloudTrail]] to log all access.
 - [[AWS CLI]] v2 utilizes STS.
+
+#Q What are the STS APIs ?
+
+Answer: `AssumeRole`, `AssumeRoleWithWebIdentity`, `AssumeRoleWithSAML`, `GetSessionToken` for MFA, `GetFederatedToken`, `GetCallerIdentity` and `DecodeAuthorizationMessage`
+
+#Q What are timing constraints of the token validity?
+Answer: The tokens can set to expire between 15(min)-60(max) mins.
+
+#Q How is STS with MFA used?
+Answer: GetSessionToken returns AccessID, SecretKey and SessionToken. `MultiFactorAuthPresent:true` must be a Condition in the IAM permissions.
 
  **References for STS**
 1. https://docs.aws.amazon.com/STS/latest/APIReference/welcome.html

@@ -6,6 +6,7 @@
       {
         "id": "12a5481335dc8cb7",
         "type": "tabs",
+        "dimension": 54.633204633204635,
         "children": [
           {
             "id": "2e63e80250d3ed8e",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/STS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -26,6 +27,7 @@
       {
         "id": "6756da495276fc05",
         "type": "tabs",
+        "dimension": 45.366795366795365,
         "children": [
           {
             "id": "bda0b78dc73d3e42",
@@ -33,8 +35,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/SAM.md",
-                "mode": "preview",
+                "file": "atoms/STS.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -78,8 +80,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Clou",
-                "matchingCase": true,
+                "query": "file: STS",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -116,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/STS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/STS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/SAM.md"
+                "file": "atoms/STS.md"
               }
             }
           },
@@ -189,13 +191,32 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
+    "atoms/Amplify.md",
+    "DVA-C02.md",
+    "atoms/AppSync.md",
+    "atoms/OASIS.md",
+    "atoms/MQTT.md",
+    "atoms/WebSockets.md",
+    "atoms/Step Functions.md",
+    "assets/StepFunctions ResultPath.png",
+    "atoms/Cognito.md",
+    "atoms/CDK.md",
+    "atoms/Cognito User Pools.md",
+    "atoms/Lambda.md",
+    "atoms/Cognito Identity Pool.md",
+    "assets/Cognito CIP Architecture Social IdP.png",
+    "atoms/ALB.md",
+    "assets/ALB IdP Architecture.png",
+    "Cognito User Pools.pdf",
+    "assets/CDK-Commands.png",
     "atoms/CloudFormation.md",
     "atoms/SAM.md",
+    "assets/SAM-CodeDeploy.png",
+    "assets/SAM Architecture Flow.png",
     "atoms/API Gateway.md",
     "atoms/DynamoDB.md",
     "assets/DynamoDB RCU WCU Formula.png",
     "assets/DynamoDB Partitioning.png",
-    "atoms/Lambda.md",
     "assets/Lambda-Kinesis Batch.png",
     "atoms/SQS.md",
     "atoms/Kinesis.md",
@@ -203,28 +224,10 @@
     "assets/Kinesis Lambda Consumer.png",
     "atoms/SNS.md",
     "atoms/X-Ray.md",
-    "assets/X-Ray Architecture.png",
     "atoms/CloudWatch.md",
     "atoms/EBS Volume Types.md",
     "atoms/Untitled 1.md",
     "atoms/Shared Responsibility Model.md",
-    "DR.md",
-    "assets/Pasted image 20230501184645.png",
-    "assets/CloudFormation Conditions.png",
-    "atoms/CodeGuru.md",
-    "atoms/CodePipeline.md",
-    "atoms/CodeArtifact.md",
-    "assets/CodeArtifact Domain Architecture.png",
-    "assets/CodeArtifact Repository Retention.png",
-    "assets/CodeArtifact-CodePipeline EventBridge Architecture.png",
-    "atoms/CodeStar.md",
-    "atoms/CodeDeploy.md",
-    "atoms/CodeBuild.md",
-    "atoms/EB.md",
-    "atoms/CodeCommit.md",
-    "atoms/Elastic Beanstalk Lifecycle Policy.md",
-    "atoms/Elastic Beanstalk Deployment Policies.md",
-    "atoms/EKS.md",
     "Driven",
     "Event"
   ]

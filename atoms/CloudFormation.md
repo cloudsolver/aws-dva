@@ -5,6 +5,7 @@ AWS CloudFormation enables you to use a template file to create and delete a col
 - Declarative programming is supported automatically.
 - Leverage existing templates and also diagrams are created!
 - [[SAM]] sits on top of CF.
+- [[CDK]] creates constructs that compiles with type safety into CloudFormation template.
 ---
 
 #Q What are the main components of CloudFormation?

@@ -3,7 +3,7 @@
   "theme": "moonstone",
   "textFontFamily": "Eurostile,Avenir",
   "translucency": true,
-  "cssTheme": "Sanctum",
+  "cssTheme": "Wasp",
   "baseFontSize": 15,
   "monospaceFontFamily": "American Typewriter,Andale Mono,Hack Nerd Font Mono"
 }
