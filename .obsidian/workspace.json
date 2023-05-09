@@ -36,7 +36,7 @@
               "type": "markdown",
               "state": {
                 "file": "atoms/STS.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -191,6 +191,9 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
+    "IAM.md",
+    "assets/IAM Dynamic Policy.png",
+    "atoms/STS.md",
     "atoms/Amplify.md",
     "DVA-C02.md",
     "atoms/AppSync.md",
@@ -221,13 +224,9 @@
     "atoms/SQS.md",
     "atoms/Kinesis.md",
     "atoms/Kinesis Data Firehose.md",
-    "assets/Kinesis Lambda Consumer.png",
     "atoms/SNS.md",
     "atoms/X-Ray.md",
     "atoms/CloudWatch.md",
-    "atoms/EBS Volume Types.md",
-    "atoms/Untitled 1.md",
-    "atoms/Shared Responsibility Model.md",
     "Driven",
     "Event"
   ]
