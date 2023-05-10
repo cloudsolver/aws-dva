@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/STS.md",
+                "file": "atoms/S3 Security.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -35,8 +35,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/STS.md",
-                "mode": "source",
+                "file": "atoms/S3 Security.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: STS",
+                "query": "S3",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/STS.md",
+                "file": "atoms/S3 Security.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/STS.md",
+                "file": "atoms/S3 Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/STS.md"
+                "file": "atoms/S3 Security.md"
               }
             }
           },
@@ -191,6 +191,23 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
+    "atoms/Secrets Manager.md",
+    "assets/SecretsManager CloudFormation.png",
+    "assets/SecretsManager Cross Region Replica.png",
+    "atoms/WAF.md",
+    "atoms/Transcribe.md",
+    "atoms/SSM Parameter Store.md",
+    "Solution Architectures.md",
+    "atoms/SigV4.md",
+    "atoms/SG.md",
+    "atoms/SASL.md",
+    "atoms/OCSP.md",
+    "atoms/KMS.md",
+    "atoms/Envelope encryption.md",
+    "assets/KMS Envelop Encryption.png",
+    "atoms/STS.md",
+    "IAM.md",
+    "assets/IAM Dynamic Policy.png",
     "atoms/Amplify.md",
     "DVA-C02.md",
     "atoms/AppSync.md",
@@ -205,29 +222,11 @@
     "atoms/Lambda.md",
     "atoms/Cognito Identity Pool.md",
     "assets/Cognito CIP Architecture Social IdP.png",
-    "atoms/ALB.md",
     "assets/ALB IdP Architecture.png",
     "Cognito User Pools.pdf",
     "assets/CDK-Commands.png",
-    "atoms/CloudFormation.md",
-    "atoms/SAM.md",
     "assets/SAM-CodeDeploy.png",
     "assets/SAM Architecture Flow.png",
-    "atoms/API Gateway.md",
-    "atoms/DynamoDB.md",
-    "assets/DynamoDB RCU WCU Formula.png",
-    "assets/DynamoDB Partitioning.png",
-    "assets/Lambda-Kinesis Batch.png",
-    "atoms/SQS.md",
-    "atoms/Kinesis.md",
-    "atoms/Kinesis Data Firehose.md",
-    "assets/Kinesis Lambda Consumer.png",
-    "atoms/SNS.md",
-    "atoms/X-Ray.md",
-    "atoms/CloudWatch.md",
-    "atoms/EBS Volume Types.md",
-    "atoms/Untitled 1.md",
-    "atoms/Shared Responsibility Model.md",
     "Driven",
     "Event"
   ]

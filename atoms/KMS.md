@@ -11,8 +11,9 @@ Key management system is an #AWSService that automates encryption key management
 - Validate [[Digital Signatures]] and perform signing operations using asymmetric digital keys.
 - Message authenticity and integrity with [[HMAC]] (Hash-based Message Authentication Codes)
 
-**KMS Monitoring**
-KMS is monitored by [[CloudWatch]] and its usage tracked by [[CloudTrail]]
+#Q How does**KMS itself achieve Monitoring** ?
+See:
+Answer: KMS is monitored by [[CloudWatch]] and its usage tracked by [[CloudTrail]].
 
 **KMS Seamless Integration**
 >  KMS seamlessly integrates with [[EBS]], [[S3]], [[RDS]], [[SSM Parameter Store]]
@@ -29,6 +30,10 @@ KMS is monitored by [[CloudWatch]] and its usage tracked by [[CloudTrail]]
 	echo 'SecretFileEncrypted.base64' | base64 --decode > 'SecretFileEncrypted' // this will decode the encrypted file.
 to decrypt give a decrypt command with the ciphertext and the blob - it will return a decrypted base64 encoded file back.
 `aws kms decrypt --ciphertext-blob fileb://SecretFileEncrypted --output text --query Plaintext ExampleFileDecrypted.base64`
+
+#Q What are the request limits of KMS?
+See:
+Answer: It varies by region. Symmetric CMK varies between 5500, 10K and 30K. RSA and ECC are at 500 and 300 respectively. Exponential backoff, or caching keys can be used when dealing with `Throttling` issues.
 
 
 ### Cross-Region

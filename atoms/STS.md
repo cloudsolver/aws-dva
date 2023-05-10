@@ -6,6 +6,10 @@ Secure Tokenization Service that enables limited privilege, temporary credential
 - STS supports AWS [[CloudTrail]] to log all access.
 - [[AWS CLI]] v2 utilizes STS.
 
+#Q How do you allow an external contractor to perform some tasks on your AWS account?
+See: [Blog](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+Answer: Provide them a cross-account access and assign role.
+
 #Q What are the STS APIs ?
 
 Answer: `AssumeRole`, `AssumeRoleWithWebIdentity`, `AssumeRoleWithSAML`, `GetSessionToken` for MFA, `GetFederatedToken`, `GetCallerIdentity` and `DecodeAuthorizationMessage`

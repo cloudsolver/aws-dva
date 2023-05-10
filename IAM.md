@@ -90,6 +90,10 @@ Answer: The core idea is to differentiate between Role based on Resource based p
 8. [[CredentialsReport]] for audit.
 9. Use [Access Advisor](Access%20Advisor.md) to review policies and least priviledge adjustments. [[Access Advisor]] shows the services permissions granted to the user and when those services were last accessed. You can use this information to review your policies later.
 10. AWS documented IAM best practices: [Click Here](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
+11. 
+#Q How can all users of AWS account be allowed to have access to their home folder?
+Answer: By using dynamic policies.
+![[IAM Dynamic Policy.png]]
 
 #### IAM Identity Center
 - SSO for all accounts in the organization and third party applications
@@ -119,6 +123,11 @@ Fig.
 Answer: This is a tricky question because when the question is framed like a 'tool' you would want to pick IAM Securtiy Advisor thinking it is the IAM [Access Advisor](Access%20Advisor.md). However, that would be incorrect becauser there is no Security Advisor within IAM. There is a report that comes out of IAM i.e. [[CredentialsReport]] - but it is not a tool. Is it? Well, I guess that's the answer for this question.
 
 You can enable IAM **cross-account access** for all corporate IT administrators in each child account.
+
+#Q IAM Role attached to EC2 instance has no permissions declared for `my-bucket`. However, the S3 bucket policy has an explicit allow for 'rw' to 'my-bucket'. Will the EC2 instance be able to write to the bucket?
+(a) Yes.
+(b) No.
+Answer: Affirmative
 
 #### References
 
