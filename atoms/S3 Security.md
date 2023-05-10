@@ -13,6 +13,8 @@ Bucket settings to Block Public Access can be set at the account level, and buck
 9. Identity and audit all S3 buckets.
 10. Enable AWS S3 access logging. The access log buckets must be in the same region.
 11. Enable [[CloudTrail]] , AWS [[Config]], [[Macie]] and use [S3 Storage Lens](S3.md#S3%20Storage%20Lens) 
+12. 
+
 ### S3 Bucket Policies
 The policy below has  a Version, and Statement (array). Each Statement has a statement id, effect, principal, action.
 ```
@@ -62,6 +64,10 @@ You have updated an S3 bucket policy to allow IAM users to read/write files in t
 (b) The user lacks permissions.
 (c) IAM user must have an explicit DENY in the attached IAM policy.
 Answer: This is tricky. It is definitely a permissions issue. But where? Well, if the answer is a typo or a mistake then d-uh. But it is a trick question as we must assume that the Bucket Policy is correct. Therefore, the question is trying to test the understanding of the student between what's in the bucket policy versus IAM policy. So (c) Explicit DENY in an IAM Policy will take precedence over an S3 bucket policy.
+
+ #Q Which IAM policy condition allows you to enforce SSL requests to objects stored in your S3 bucket?
+ Answer: `aws:secureTransport`
+
 ## References
 
 1. [S3 Security Best Practices](https://docs.aws.amazon.com/AmazonS3/latest/userguide/security-best-practices.html)

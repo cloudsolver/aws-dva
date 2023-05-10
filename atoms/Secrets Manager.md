@@ -8,11 +8,21 @@ Centrally manage the lifecycle of secrets. #AWSService Primarily for RDS and API
 - Encryption with [[KMS]]
 - Replicate secrets across regions to support [[DR]] #UseCase 
 - Read replica secret can be promoted to a standalone secret
+- Deleting a Secret causes a 30 day wait period to allow time for cancelling the deletion if required. 
 
 ![[Credentials for Services.png|512]]
 Fig. Options for Secrets Manager
 
-
+#Q How does [[CloudFormation]] leverage Secrets Manager?
+See:
+Answer: `ManageMasterUserPassword: true` - creates a password in SecretsManager and can output an `Arn`. 
+![[SecretsManager CloudFormation.png]]
+Fig. CloudFormation 
+#Q How are multi-region keys supported for DR of Databases ?
+See:
+Answer: Read-replicas in another region are created and can be promoted in [[DR]] situations.
+![[SecretsManager Cross Region Replica.png]]
+Fig. Secrets Manager cross region.
 
 ---
 > **References for Secrets Manager**
