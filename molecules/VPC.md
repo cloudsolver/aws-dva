@@ -23,8 +23,8 @@ Site-to-Site VPN access can be created with a Virtual Private Gateway connection
 
 ### IP Addressing
 
-![[IP Address]]
-[[ENI]] is a logical component of a VPC that represents a virtual network card.
+See [[IP Address]]
+See [[ENI]]. It is a logical component of a VPC that represents a virtual network card.
 
 ### Route Tables
 Routing for subnets and gateways.

@@ -6,7 +6,7 @@
       {
         "id": "12a5481335dc8cb7",
         "type": "tabs",
-        "dimension": 54.633204633204635,
+        "dimension": 37.58300132802125,
         "children": [
           {
             "id": "2e63e80250d3ed8e",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/S3 Security.md",
+                "file": "atoms/Step Functions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -27,7 +27,7 @@
       {
         "id": "6756da495276fc05",
         "type": "tabs",
-        "dimension": 45.366795366795365,
+        "dimension": 31.208499335989377,
         "children": [
           {
             "id": "bda0b78dc73d3e42",
@@ -35,10 +35,53 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/S3 Security.md",
+                "file": "atoms/Step Functions.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
+              }
+            },
+            "group": "f5cbb00fc9f012dc"
+          }
+        ]
+      },
+      {
+        "id": "78ff98edb831b666",
+        "type": "tabs",
+        "dimension": 31.208499335989377,
+        "children": [
+          {
+            "id": "76337ef9d4ccb60c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "atoms/Step Functions.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.3891815802309337,
+                  "close": false
+                }
               }
             },
             "group": "f5cbb00fc9f012dc"
@@ -53,7 +96,7 @@
     "type": "split",
     "children": [
       {
-        "id": "aa492cdd46108376",
+        "id": "fbddfc57a7f20783",
         "type": "tabs",
         "children": [
           {
@@ -65,7 +108,13 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "aa492cdd46108376",
+        "type": "tabs",
+        "children": [
           {
             "id": "9162497db86ceccb",
             "type": "leaf",
@@ -80,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "S3",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,11 +147,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "170f39ae53dbea09",
@@ -118,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/S3 Security.md",
+                "file": "atoms/Step Functions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/S3 Security.md",
+                "file": "atoms/Step Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/S3 Security.md"
+                "file": "atoms/Step Functions.md"
               }
             }
           },
@@ -185,42 +235,45 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
-    "atoms/Secrets Manager.md",
+    "molecules/VPC.md",
+    "templates/molecule compare.md",
+    "molecules/Observability Services.md",
+    "molecules/Messaging Services.md",
+    "molecules/Machine Learning Services.md",
+    "molecules/Lift and Shift.md",
+    "molecules/IP Address.md",
+    "molecules/GW.md",
+    "molecules/Encryption Concepts.md",
+    "molecules/Edge Computing Services.md",
+    "molecules/ELB.md",
+    "molecules/Data and Analytics Services.md",
+    "molecules/DDOS.md",
+    "molecules",
+    "atoms/iSCSI.md",
+    "atoms/X-Ray.md",
+    "atoms/Workspaces.md",
+    "atoms/WebSockets.md",
+    "atoms/WAF.md",
+    "atoms/VPN.md",
+    "atoms/VPC Connectivity.md",
+    "atoms/VIF.md",
+    "atoms/VGW.md",
+    "atoms/Translate.md",
+    "atoms/Transfer Family.md",
+    "atoms/Transcribe.md",
+    "atoms/Textract.md",
+    "atoms",
     "assets/SecretsManager CloudFormation.png",
     "assets/SecretsManager Cross Region Replica.png",
-    "atoms/WAF.md",
-    "atoms/Transcribe.md",
-    "atoms/SSM Parameter Store.md",
-    "Solution Architectures.md",
-    "atoms/SigV4.md",
-    "atoms/SG.md",
-    "atoms/SASL.md",
-    "atoms/OCSP.md",
-    "atoms/KMS.md",
-    "atoms/Envelope encryption.md",
     "assets/KMS Envelop Encryption.png",
-    "atoms/STS.md",
-    "IAM.md",
     "assets/IAM Dynamic Policy.png",
-    "atoms/Amplify.md",
-    "DVA-C02.md",
-    "atoms/AppSync.md",
-    "atoms/OASIS.md",
-    "atoms/MQTT.md",
-    "atoms/WebSockets.md",
-    "atoms/Step Functions.md",
     "assets/StepFunctions ResultPath.png",
-    "atoms/Cognito.md",
-    "atoms/CDK.md",
-    "atoms/Cognito User Pools.md",
-    "atoms/Lambda.md",
-    "atoms/Cognito Identity Pool.md",
     "assets/Cognito CIP Architecture Social IdP.png",
     "assets/ALB IdP Architecture.png",
     "Cognito User Pools.pdf",

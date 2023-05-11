@@ -24,7 +24,7 @@ States can perform a variety of functions in your state machine:
 Table. State Types and Description
 
 #Q How can we setup polling for tasks via [[ECS]] or [[EC2]] onto Step Functions?
-See:
+See: [Doc](https://docs.aws.amazon.com/step-functions/latest/dg/bp-activity-pollers.html)
 Answer: This can be done via Activity Tasks which enables Activity Worker apps on EC2 or ECS to perform the tasks by polling `GetActivityTask` API on the Step Functions. `SendTaskSuccess` and `SendTaskFailure` status is sent back after the task is completed. Task token is the tracker to ensure coordination. `TimeoutSeconds` is the amount of time after which the task is considered to have failed. `HeartbeatSeconds` is the Keep Task Alive function done via `SendTaskHeartBeat`. Waits can be as long at 1 year.
 
 #Q How should errors be handled ?
