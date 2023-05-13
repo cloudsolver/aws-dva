@@ -19,3 +19,7 @@ Answer: It natively uses [[CodeDeploy]].
 
 #Q What is SAR?
 Answer: Serverless Application Repository. Build and publish serverless applications that can be used by organizations. Share with AWS accounts or publicly.
+
+#Q What are the two sections in the SAM template that are required?
+See: [Docs](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html)
+Answer: Only the `Transform` and `Resources` sections are required.

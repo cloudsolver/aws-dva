@@ -31,6 +31,10 @@ Answer: 10000 requests per second at the account level.
 #Q How is CORS configured in API Gateway?
 Answer: It is at the method level. In case of lambda-proxy - the lambda function must return the header `Access-Control-Allow-Origin: https://www.example.com`. Other headers are Methods, Headers, Max-Age.
 
+#Q What should be done to only allow authorized clients to invalidate an API Gateway cache entry when submitting API requests?
+See:
+Answer: The client must send the request with a header `Cache-Control: max-age=0`. It it prudent to turn on `Require Authorization` for the API and this can be done by checking the check-box of the Cache Settings.
+
 #### API Gateway Security
 -  [[IAM]]
 	- Authorize Services with the AWS ecosystem.
