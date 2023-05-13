@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Step Functions.md",
+                "file": "atoms/X-Ray.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Step Functions.md",
+                "file": "atoms/X-Ray.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -56,7 +56,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "atoms/Step Functions.md",
+                "file": "atoms/X-Ray.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Step Functions.md",
+                "file": "atoms/X-Ray.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Step Functions.md",
+                "file": "atoms/X-Ray.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/Step Functions.md"
+                "file": "atoms/X-Ray.md"
               }
             }
           },
@@ -241,6 +241,9 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
+    "assets/X-Ray Trace Filter.png",
+    "atoms/X-Ray.md",
+    "atoms/Step Functions.md",
     "molecules/VPC.md",
     "templates/molecule compare.md",
     "molecules/Observability Services.md",
@@ -256,7 +259,6 @@
     "molecules/DDOS.md",
     "molecules",
     "atoms/iSCSI.md",
-    "atoms/X-Ray.md",
     "atoms/Workspaces.md",
     "atoms/WebSockets.md",
     "atoms/WAF.md",
@@ -266,8 +268,6 @@
     "atoms/VGW.md",
     "atoms/Translate.md",
     "atoms/Transfer Family.md",
-    "atoms/Transcribe.md",
-    "atoms/Textract.md",
     "atoms",
     "assets/SecretsManager CloudFormation.png",
     "assets/SecretsManager Cross Region Replica.png",
@@ -279,7 +279,6 @@
     "Cognito User Pools.pdf",
     "assets/CDK-Commands.png",
     "assets/SAM-CodeDeploy.png",
-    "assets/SAM Architecture Flow.png",
     "Driven",
     "Event"
   ]
