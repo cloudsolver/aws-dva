@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/CloudFormation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/CloudFormation.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -56,7 +56,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/CloudFormation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Cloud Formation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -151,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "170f39ae53dbea09",
@@ -168,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/CloudFormation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/SAM.md",
+                "file": "atoms/CloudFormation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/SAM.md"
+                "file": "atoms/CloudFormation.md"
               }
             }
           },
@@ -241,6 +240,18 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
+    "atoms/EB.md",
+    "atoms/Lambda.md",
+    "assets/lambda-reserved-concurrency.png",
+    "atoms/SQS.md",
+    "atoms/EC2.md",
+    "atoms/Principle of Least Privilege.md",
+    "Secure Architectures.md",
+    "atoms/ASG.md",
+    "atoms/ECS.md",
+    "atoms/ECR.md",
+    "atoms/CodeDeploy.md",
+    "atoms/SAM.md",
     "atoms/API Gateway.md",
     "atoms/X-Ray.md",
     "assets/X-Ray Trace Filter.png",
@@ -257,18 +268,7 @@
     "molecules/Edge Computing Services.md",
     "molecules/ELB.md",
     "molecules/Data and Analytics Services.md",
-    "molecules/DDOS.md",
     "molecules",
-    "atoms/iSCSI.md",
-    "atoms/Workspaces.md",
-    "atoms/WebSockets.md",
-    "atoms/WAF.md",
-    "atoms/VPN.md",
-    "atoms/VPC Connectivity.md",
-    "atoms/VIF.md",
-    "atoms/VGW.md",
-    "atoms/Translate.md",
-    "atoms/Transfer Family.md",
     "atoms",
     "assets/SecretsManager CloudFormation.png",
     "assets/SecretsManager Cross Region Replica.png",
@@ -279,7 +279,6 @@
     "assets/ALB IdP Architecture.png",
     "Cognito User Pools.pdf",
     "assets/CDK-Commands.png",
-    "assets/SAM-CodeDeploy.png",
     "Driven",
     "Event"
   ]

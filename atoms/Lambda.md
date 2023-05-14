@@ -52,7 +52,8 @@ Answer: Run Lambda inside the VPC. It creates an ENI. Requires `AWSLambdaVPCAcce
 Answer: Initialize db connections outside the function body.  Use `/tmp` folder for up to 10GB of temporary disk space. Use KMS data keys to encrypt data by yourself.
 
 #Q How does Lambda handle scale concurrency?
-**Answer:** Up to 1000 concurrent invocations (Soft limit) for ALL FUNCTIONS in the account. Be careful with multiple channels saturating concurrency disproportionately. A reserved concurrency can be set by the function level. Throttle Error 429 `Rate Exceeded`. For async, DLQ after retry via it's internal event queue.
+See: ![[lambda-reserved-concurrency.png]]
+**Answer:** Up to 1000 concurrent invocations (Soft limit) for ALL FUNCTIONS in the account. Be careful with multiple channels saturating concurrency disproportionately. A **reserved concurrency** can be set by the function level. Throttle Error 429 `Rate Exceeded`. For async, DLQ after retry via it's internal event queue. FYI - `provisioned concurrency` is used to ensure lambda functions are ready to scale without fluctionations.
 
 #Q How can the impact of Cold Starts be minimized?
 Answer: AWS has improved Lambdas within VPCs. Provisioned Concurrency creates a warm pool can be set that will improve (not free).

@@ -35,7 +35,10 @@ A Launch Template is required for an ASG.
 #Q  You have an ASG and an [NLB](ELB.md#NLB). The application on your ASG supports the HTTP protocol and is integrated with the Load Balancer health checks. You are currently using the TCP health checks. You would like to migrate to using HTTP health checks, what do you do?
 (a) Migrate to an Application Load Balancer
 (b) Migrate the health check to HTTP
-Answer: Both answers are correct. Remember, that NLB supports HTTP health checks.
+**Answer**: Both answers are correct. Remember, that NLB supports HTTP health checks.
+
+#Q An Auto Scaling group has a maximum capacity of 3, a current capacity of 2, and a scaling policy that adds 3 instances. What is the outcome?
+Answer: It will simply add one additional instance.
 
 #### References for ASG
 1. https://docs.aws.amazon.com/autoscaling/ec2/userguide/scale-your-group.html

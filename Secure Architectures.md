@@ -5,8 +5,8 @@
 1. Access controls and management across multiple accounts.
 2. AWS federated access and identity services. AWS Identity and Access Management ([[IAM]]), AWS Single-Sign-On with [[IAM Certificate Store]].
 3. AWS [[Global Infrastructure]] (AZ, AWS Regions).
-4. AWS Security Best Practices (e.g. Principle of Least Privilege).
-5. The AWS Shared Responsibility Model.
+4. AWS Security Best Practices (e.g. [[Principle of Least Privilege]]).
+1. The AWS Shared Responsibility Model.
 
 **Skills**
 1. Applying AWS security best practices to [[IAM]] users and root users (for example, multi-factor authentication [[MFA]])

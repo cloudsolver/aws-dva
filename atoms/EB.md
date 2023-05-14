@@ -29,6 +29,9 @@ Answer: Use [[ACM]] and [[ALB]] and create a rule to redirect HTTP to HTTPS
 #Q How can you create a custom platform? Any why would you need to?
 Answer: If Docker is not possible. Create your own platform with `Platform.yaml` file. Build it using Packer software (open source) to create AMI.
 
+#Q How do you migrate an EB env from on AWS account to AWS another?
+See: [Blog](https://repost.aws/knowledge-center/elastic-beanstalk-migration-accounts)
+**Answer**: You must use [saved configurations](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environment-configuration-savedconfig.html) to migrate an Elastic Beanstalk environment between AWS accounts.
 ### EB with Docker
 
 #Q What is the architecture for running a single instance and multi-instance Docker containers ?

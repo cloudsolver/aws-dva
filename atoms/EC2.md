@@ -71,3 +71,6 @@ When you launch a new EC2 instance, the EC2 service attempts to place the instan
 
 ### Scaling EC2 Horizontally
 - [[ASG | Auto-Scaling Group]] with appropriate launch configurations and scaling policies can be used to scale. #performant 
+#Q An Auto Scaling group has a maximum capacity of 3, a current capacity of 2, and a scaling policy that adds 3 instances. When executing this scaling policy, what is the expected outcome?
+See: https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scale-based-on-demand.html
+**Answer**: The [[ASG]] will not add 3 instances because it is not weighted policy. It will only add one more to ensure the capacity does not go out of range.

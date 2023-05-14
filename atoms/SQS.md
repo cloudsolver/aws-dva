@@ -3,7 +3,7 @@ Exchange messages via at-least-once delivery, best-effort ordering, low-latency,
 ### SQS Details
 - At-least-once delivery and best-effort ordering.
 - `SendMessageAPI` to send to SQS. Default message retention period 4 days. Maximum retention is 14 days.
-- Low Latency < 10ms, Limitation of 256 KB message size.
+- Low Latency < 10ms, Limitation of **256** KB message size.
 - Consumer may receive up to 10 messages at a time. `ReceiveMessage` will get the same message again unless `DeleteMessage` is invoked. 
 - If `MessageVisibility` timeout of 30 seconds expires, SQS Queue will deliver a different message to different consumer.
 ![[SQS Polling]]

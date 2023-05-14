@@ -27,9 +27,13 @@ Table. CloudFormation
 
 ---
 
+
 #Q What are **Parameters**?
 Answer: Parameters enable you to pass values to your templates when you create or update a stack. These values can include information such as instance sizes, key pair names, and database passwords. By using parameters, you can create more flexible and reusable templates that can be used for different environments or use cases.
 `Fn::Ref` or simply `!Ref`. You don't know the value up front.
+
+#Q Which section of a CloudFormation template does not allow for conditions?
+Answer: Parameters
 
 #Q What are **pseudo-parameters**?
 Answer: Pseudo-parameters, on the other hand, are predefined by CloudFormation and are available for use in all stacks. They provide information about the stack and its environment. Pseudo-parameters cannot be changed and their values are automatically populated by CloudFormation during stack creation or update. Examples of pseudo-parameters include `AWS::Region`, which returns the region in which the stack is being created or updated, and `AWS::StackName`, which returns the name of the stack.

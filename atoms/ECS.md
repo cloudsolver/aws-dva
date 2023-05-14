@@ -12,6 +12,9 @@ See [[ECS Autoscaling]].
 See [[ECS Rolling Updates]].
 **Answer**: ECS Service Scheduler replaces the current running version of the container with the latest version based on percentages of minimum and maximums.
 
+#Q What is difference in cluster behavior if an instance is terminate when it was in the STOPPED state versus RUNNING?
+Answer: If a RUNNING instance is terminated, it will be deregistered from the cluster. If an STOPPED instance is terminated, it will remain registered as a resource within the cluster.
+
 ---
 
 ECS Deployment Configuration **Application Type**
