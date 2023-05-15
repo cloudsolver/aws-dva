@@ -6,6 +6,7 @@ AWS CloudFormation enables you to use a template file to create and delete a col
 - Leverage existing templates and also diagrams are created!
 - [[SAM]] sits on top of CF.
 - [[CDK]] creates constructs that compiles with type safety into CloudFormation template.
+- [[EB]] sits on top of CF.
 ---
 
 #Q What are the main components of CloudFormation?
@@ -33,7 +34,7 @@ Answer: Parameters enable you to pass values to your templates when you create o
 `Fn::Ref` or simply `!Ref`. You don't know the value up front.
 
 #Q Which section of a CloudFormation template does not allow for conditions?
-Answer: Parameters
+Answer: Parameters. This section is a declaration to be referenced later in the template.
 
 #Q What are **pseudo-parameters**?
 Answer: Pseudo-parameters, on the other hand, are predefined by CloudFormation and are available for use in all stacks. They provide information about the stack and its environment. Pseudo-parameters cannot be changed and their values are automatically populated by CloudFormation during stack creation or update. Examples of pseudo-parameters include `AWS::Region`, which returns the region in which the stack is being created or updated, and `AWS::StackName`, which returns the name of the stack.
@@ -66,12 +67,19 @@ Fig. CloudFormation Designer
 
 I find it quite impractical. JSON is unusable, YAML is readable but it's super clunky.
 
-#Q How is CloudFormation Rolledback Handled with Notifications?
-Answer: CF needs SNS Integration Enabled. If CF fails, the stack will delete and the last known successful stack.
-![[Pasted image 20230501184645.png]]
-Fig
+#Q How is CloudFormation rolled back handled with notifications?
+Answer: CF needs [[SNS]] integration enabled. If CF fails, the stack will delete and the last known successful stack.
+![[CF-SNS Integration.png]]
+Fig. Cloud Formation SNS Integration
 
 ---
 
 #Q What are the limitations of CloudFormation?
 Answer: It will not allow you to dynamically or programmatically generate resources. It is all declarative.  Almost all resource types are available, when they are not, you can use AWS Lambda Custom Resources.
+
+---
+#Q What is the quickest way to deploy a simple lambda function with CloudFormation.
+See:
+Answer: Use the `ZipFile` parameter with inline code.
+![[CF Lambda ZipFile.png]]
+Fig. Lambda Function embedded with CloudFormation

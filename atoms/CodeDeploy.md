@@ -38,4 +38,6 @@ Answer:
 #Q How are Rollback handled?
 **Answer**: In order to rollback, redeploy old deployment or enable rollback or failure. Automation can be achieved via a [[CloudWatch]] alarm. Rollback occurs, by redeploying the last known successful deployment. There is no PITR for applications. 
 
+#Q Can AWS Lambda deployments use in-place deployment type?
+ Answer: No. AWS Lambda compute platform deployments cannot use an in-place deployment type.
 ---

@@ -4,30 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "12a5481335dc8cb7",
-        "type": "tabs",
-        "dimension": 37.58300132802125,
-        "children": [
-          {
-            "id": "2e63e80250d3ed8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/CloudFormation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            },
-            "group": "f5cbb00fc9f012dc"
-          }
-        ]
-      },
-      {
         "id": "6756da495276fc05",
         "type": "tabs",
-        "dimension": 31.208499335989377,
+        "dimension": 42.824074074074076,
         "children": [
           {
             "id": "bda0b78dc73d3e42",
@@ -35,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/CloudFormation.md",
+                "file": "atoms/X-Ray.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -48,40 +27,18 @@
       {
         "id": "78ff98edb831b666",
         "type": "tabs",
-        "dimension": 31.208499335989377,
+        "dimension": 57.17592592592593,
         "children": [
           {
-            "id": "76337ef9d4ccb60c",
+            "id": "2e63e80250d3ed8e",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
+              "type": "markdown",
               "state": {
-                "file": "atoms/CloudFormation.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1.3891815802309337,
-                  "close": false
-                }
+                "file": "atoms/X-Ray.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
               }
             },
             "group": "f5cbb00fc9f012dc"
@@ -129,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Cloud Formation",
+                "query": "x-r",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -167,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/CloudFormation.md",
+                "file": "atoms/X-Ray.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/CloudFormation.md",
+                "file": "atoms/X-Ray.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/CloudFormation.md"
+                "file": "atoms/X-Ray.md"
               }
             }
           },
@@ -240,6 +197,12 @@
   },
   "active": "2e63e80250d3ed8e",
   "lastOpenFiles": [
+    "atoms/CloudFormation.md",
+    "assets/CF Lambda ZipFile.png",
+    "IAM.md",
+    "atoms/CodeDeploy.md",
+    "atoms/API Gateway.md",
+    "assets/CF-SNS Integration.png",
     "atoms/EB.md",
     "atoms/Lambda.md",
     "assets/lambda-reserved-concurrency.png",
@@ -250,9 +213,7 @@
     "atoms/ASG.md",
     "atoms/ECS.md",
     "atoms/ECR.md",
-    "atoms/CodeDeploy.md",
     "atoms/SAM.md",
-    "atoms/API Gateway.md",
     "atoms/X-Ray.md",
     "assets/X-Ray Trace Filter.png",
     "atoms/Step Functions.md",
@@ -265,9 +226,6 @@
     "molecules/IP Address.md",
     "molecules/GW.md",
     "molecules/Encryption Concepts.md",
-    "molecules/Edge Computing Services.md",
-    "molecules/ELB.md",
-    "molecules/Data and Analytics Services.md",
     "molecules",
     "atoms",
     "assets/SecretsManager CloudFormation.png",
@@ -276,9 +234,7 @@
     "assets/IAM Dynamic Policy.png",
     "assets/StepFunctions ResultPath.png",
     "assets/Cognito CIP Architecture Social IdP.png",
-    "assets/ALB IdP Architecture.png",
     "Cognito User Pools.pdf",
-    "assets/CDK-Commands.png",
     "Driven",
     "Event"
   ]

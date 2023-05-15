@@ -129,6 +129,9 @@ You can enable IAM **cross-account access** for all corporate IT administrators 
 (b) No.
 Answer: Affirmative
 
+#Q How can you test the impact of service control policies (SCPs) on your IAM policies and resource policies before applying them.
+Answer: IAM Policy Simulator can be used before committing to production. https://policysim.aws.amazon.com
+
 #### References
 
 1. https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html

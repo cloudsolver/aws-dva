@@ -35,6 +35,22 @@ Answer: It is at the method level. In case of lambda-proxy - the lambda function
 See:
 Answer: The client must send the request with a header `Cache-Control: max-age=0`. It it prudent to turn on `Require Authorization` for the API and this can be done by checking the check-box of the Cache Settings.
 
+#Q What are the Integration types supported and when should each be used?
+See: [Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-integration-types.html)
+Answer: 
+
+| Type       | Desc |
+| ---------- | ---- |
+| HTTP       | Expose HTTP endpoints in the backend. Known as the HTTP custom integration, you must configure both the integration request and integration response. You must set up necessary data mappings from the method request to the integration request, and from the integration response to the method response.     |
+| AWS        |  Expose AWS service actions. Integration layer and Data mapping config required.   |
+| HTTP-PROXY | Pass through directly. Method level.     |
+| AWS-PROXY  |  Pass through directly to [[Lambda]] ONLY. All other AWS services - must use AWS option.    |
+| MOCK           |  No backend is called.    |
+
+Table. Integration Types
+
+Note: Use PROXY if you don't want API Gateway to mess around with integration layers and mappings. 
+
 #### API Gateway Security
 -  [[IAM]]
 	- Authorize Services with the AWS ecosystem.
