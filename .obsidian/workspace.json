@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Cognito Sync.md",
+                "file": "atoms/AppConfig.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Cognito Sync.md",
+                "file": "atoms/AppConfig.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Cognito Sync.md",
+                "file": "atoms/AppConfig.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Cognito Sync.md",
+                "file": "atoms/AppConfig.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/Cognito Sync.md"
+                "file": "atoms/AppConfig.md"
               }
             }
           },
@@ -197,8 +197,9 @@
   },
   "active": "bda0b78dc73d3e42",
   "lastOpenFiles": [
-    "atoms/AppSync.md",
     "atoms/Cognito Sync.md",
+    "atoms/AppConfig.md",
+    "atoms/AppSync.md",
     "atoms/RDS.md",
     "atoms/RDS Multi-AZ deployments.md",
     "atoms/DynamoDB.md",
@@ -226,7 +227,6 @@
     "atoms/Step Functions.md",
     "molecules/VPC.md",
     "templates/molecule compare.md",
-    "molecules/Observability Services.md",
     "molecules",
     "atoms",
     "assets/SecretsManager CloudFormation.png",

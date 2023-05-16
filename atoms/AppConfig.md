@@ -1,0 +1,3 @@
+#Q What is AppConfig?
+See: [User Guide](https://docs.aws.amazon.com/appconfig/latest/userguide/what-is-appconfig.html)
+**Answer**: This is a capability of [[SSM]] (AWS Systems Manager), to create, manage, and quickly deploy application configurations. A _configuration_ is a collection of settings that influence the behavior of your application. You can use AWS AppConfig with applications hosted on Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS Lambda, containers, mobile applications, or IoT devices.
