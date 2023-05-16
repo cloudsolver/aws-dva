@@ -82,6 +82,14 @@ Answer:
 NEW_IMAGE, OLD_IMAGE, NEW_AND_OLD_IMAGE, KEYS_ONLY.
 KCL works for both Kinesis and DynamoDB streams. Streams will be sent only after it has been enabled.
 
+---
+
+#Q What consistency mode does GSI (Global Secondary Index) support?
+Answer: Eventual Consistency.
+
+---
+
+
 	
  - **On-Demand Mode** 
 	 - No capacity units but is much more expensive 

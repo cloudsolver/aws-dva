@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/X-Ray.md",
-                "mode": "preview",
+                "file": "atoms/Cognito Sync.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -35,8 +35,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/X-Ray.md",
-                "mode": "source",
+                "file": "atoms/Cognito Sync.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "x-r",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/X-Ray.md",
+                "file": "atoms/Cognito Sync.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/X-Ray.md",
+                "file": "atoms/Cognito Sync.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/X-Ray.md"
+                "file": "atoms/Cognito Sync.md"
               }
             }
           },
@@ -195,8 +195,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2e63e80250d3ed8e",
+  "active": "bda0b78dc73d3e42",
   "lastOpenFiles": [
+    "atoms/AppSync.md",
+    "atoms/Cognito Sync.md",
+    "atoms/RDS.md",
+    "atoms/RDS Multi-AZ deployments.md",
+    "atoms/DynamoDB.md",
+    "atoms/RDS Security.md",
+    "DVA-C02.md",
+    "atoms/X-Ray.md",
     "atoms/CloudFormation.md",
     "assets/CF Lambda ZipFile.png",
     "IAM.md",
@@ -214,18 +222,11 @@
     "atoms/ECS.md",
     "atoms/ECR.md",
     "atoms/SAM.md",
-    "atoms/X-Ray.md",
     "assets/X-Ray Trace Filter.png",
     "atoms/Step Functions.md",
     "molecules/VPC.md",
     "templates/molecule compare.md",
     "molecules/Observability Services.md",
-    "molecules/Messaging Services.md",
-    "molecules/Machine Learning Services.md",
-    "molecules/Lift and Shift.md",
-    "molecules/IP Address.md",
-    "molecules/GW.md",
-    "molecules/Encryption Concepts.md",
     "molecules",
     "atoms",
     "assets/SecretsManager CloudFormation.png",

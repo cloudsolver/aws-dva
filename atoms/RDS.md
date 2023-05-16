@@ -28,16 +28,16 @@ Amazon RDS is a managed RDBMS service that supports various relational database 
 	- Low-storage lasts at least 5 mins.
 	- 6 hours have passed since last modification.
 ### Constraints
-- No [SSH](SSH.md) access to the database engine.
+- No [[SSH]] access to the database engine.
 	- Unless you opt for [[RDS Custom]] where you get access to EC2 instance.
 - Enhanced Monitoring needs to be enabled
 	- To monitor how the different processes or threads on a DB instance use the CPU, including the percentage of the CPU bandwidth and total memory consumed by each process
 
 ### RDS Read Replica
-![RDS Read Replicas](RDS%20Read%20Replicas.md#Summary)
+[[RDS Read Replicas]]
 
 ### RDS Multi-AZ
-![RDS Multi-AZ Deployment](RDS%20Multi-AZ%20deployments#Summary)
+[[RDS Multi-AZ Deployments]]
 
 ### RDS Cross Region Replication
 ![RDS Cross Region Replication](RDS%20Cross%20Region%20Replication.md#Summary)
@@ -46,27 +46,8 @@ Amazon RDS is a managed RDBMS service that supports various relational database 
 ![RDS Backup](RDS%20Backup.md#RDS%20Backup%20Summary)
 
 ## RDS Security
+[[RDS Security]]
 
-### Authentication
-- Short-lived credentials can be created with `AWSAuthenticationPlugin` with IAM.
-- **IAM DB Authentication** - manage your database user credentials through AWS IAM users and roles.
-#Q How do you use the profile credentials specific to your EC2 instance to access your database, instead of a password?
-	-Use IAM DB Authentication
-### At-rest encryption
-  - Database master and replicas encryption using AWS [[KMS]] - must be defined at launch time.
-  - If master is not encrypted - the replicas cannot be encrypted.
-  - DB snapshot, restore as encrypted.
-#UseCase Enable encryption for the database without incurring any data loss:
-Encrypt: take a snapshot, encrypt a copy of the snapshot and restore the snapshot to a new RDS DB instance
-Sync Data: Use [[DMS]] to sync data to the new RDS DB instance from the old RDS instance.
-### In-Flight Encryption
-- TLS-ready by default. 
-- Use AWS TLS root certificate client-side.
-- #UseCase Force all connections to your DB instance to use SSL by setting the `rds.force_ssl` parameter to true. Once done, reboot your DB instance.
-- #UseCase Enforce SSL on MySQL DB Instance: Execute `REQUIRE SSL` on all DB users.
-#UseCase Amazon RDS creates an SSL certificate and installs the certificate on the DB instance when Amazon RDS provisions the instance. These certificates are signed by a certificate authority. The SSL certificate includes the DB instance endpoint as the Common Name (CN) for the SSL certificate to guard against spoofing attacks.
-### Security Groups
-- Control network access to RDS/Aurora DB.
 ### Monitoring and Audit Logs
 - CloudWatch logs for longer retention.
 - Enhanced RDS Monitoring Provides:
