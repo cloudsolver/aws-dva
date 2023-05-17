@@ -50,6 +50,9 @@ Some of these constraints are lifted when using [[Lambda#Lambda@Edge]]
 [[Hybrid Cloud Architecture]] with CloudFront is possible. A custom origin can point to an on-premises server and CloudFront is able to cache content for dynamic websites. CloudFront can provide performance optimizations for custom origins even if they are running on on-premises servers. These include persistent TCP connections to the origin, SSL enhancements such as Session tickets and [[OCSP]] stapling. #performant 
 Additionally, connections are routed from the nearest Edge Location to the user across the AWS global network. If the on-premises server is connected via a [[DX|Direct Connect]]  link this can further improve performance.
 
+#Q What is a fast and cost-efficient solution that will update the images immediately without waiting for the object’s expiration date?
+Answer: Cache-Invalidation is time-consuming and not recommended. It is recommended to use different names for assets by version number.
+
 ## References
 
 1. [CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
