@@ -4,30 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "6756da495276fc05",
-        "type": "tabs",
-        "dimension": 42.824074074074076,
-        "children": [
-          {
-            "id": "bda0b78dc73d3e42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/CloudFront.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            },
-            "group": "f5cbb00fc9f012dc"
-          }
-        ]
-      },
-      {
         "id": "78ff98edb831b666",
         "type": "tabs",
-        "dimension": 57.17592592592593,
+        "dimension": 30.410821643286578,
         "children": [
           {
             "id": "2e63e80250d3ed8e",
@@ -35,13 +14,77 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/CloudFront.md",
+                "file": "atoms/Lambda.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             },
-            "group": "f5cbb00fc9f012dc"
+            "group": "dde2e7ce75747752"
+          }
+        ]
+      },
+      {
+        "id": "fb12f82677200b1b",
+        "type": "tabs",
+        "dimension": 30.410821643286578,
+        "children": [
+          {
+            "id": "f759dcbbbe46a365",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Lambda.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            },
+            "group": "dde2e7ce75747752"
+          }
+        ]
+      },
+      {
+        "id": "cdd1517d3a460308",
+        "type": "tabs",
+        "dimension": 39.178356713426844,
+        "children": [
+          {
+            "id": "d856c62c34c5f5d5",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "atoms/Lambda.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.8022920713216215,
+                  "close": false
+                }
+              }
+            },
+            "group": "dde2e7ce75747752"
           }
         ]
       }
@@ -65,18 +108,12 @@
                 "sortOrder": "alphabetical"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "aa492cdd46108376",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "9162497db86ceccb",
+            "id": "b1ee6e5a36533f4c",
             "type": "leaf",
             "state": {
-              "type": "starred",
+              "type": "bookmarks",
               "state": {}
             }
           },
@@ -86,8 +123,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "Lambda",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -96,19 +133,19 @@
             }
           },
           {
-            "id": "b1ee6e5a36533f4c",
+            "id": "9162497db86ceccb",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
+              "type": "starred",
               "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 244.5
   },
   "right": {
     "id": "170f39ae53dbea09",
@@ -124,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/CloudFront.md",
+                "file": "atoms/Lambda.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/CloudFront.md",
+                "file": "atoms/Lambda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/CloudFront.md"
+                "file": "atoms/Lambda.md"
               }
             }
           },
@@ -195,8 +232,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bda0b78dc73d3e42",
+  "active": "f759dcbbbe46a365",
   "lastOpenFiles": [
+    "atoms/Subnet.md",
+    "atoms/Lambda.md",
+    "atoms/Kinesis.md",
+    "atoms/Shared Responsibility Model.md",
+    "DVA-C02.md",
+    "atoms/STS.md",
+    "Global Infrastructure.md",
+    "Event Driven Architectures.md",
+    "DR.md",
+    "Cost Optimized Architecture.md",
+    "molecules/IP Address.md",
+    "Cognito User Pools.pdf",
+    "atoms/Step Functions.md",
+    "IAM.md",
+    "atoms/CloudFront.md",
     "atoms/AppConfig.md",
     "atoms/Cognito Sync.md",
     "atoms/AppSync.md",
@@ -204,29 +256,15 @@
     "atoms/RDS Multi-AZ deployments.md",
     "atoms/DynamoDB.md",
     "atoms/RDS Security.md",
-    "DVA-C02.md",
     "atoms/X-Ray.md",
     "atoms/CloudFormation.md",
     "assets/CF Lambda ZipFile.png",
-    "IAM.md",
     "atoms/CodeDeploy.md",
     "atoms/API Gateway.md",
     "assets/CF-SNS Integration.png",
     "atoms/EB.md",
-    "atoms/Lambda.md",
     "assets/lambda-reserved-concurrency.png",
-    "atoms/SQS.md",
-    "atoms/EC2.md",
-    "atoms/Principle of Least Privilege.md",
-    "Secure Architectures.md",
-    "atoms/ASG.md",
-    "atoms/ECS.md",
-    "atoms/ECR.md",
-    "atoms/SAM.md",
     "assets/X-Ray Trace Filter.png",
-    "atoms/Step Functions.md",
-    "molecules/VPC.md",
-    "templates/molecule compare.md",
     "molecules",
     "atoms",
     "assets/SecretsManager CloudFormation.png",
@@ -235,7 +273,6 @@
     "assets/IAM Dynamic Policy.png",
     "assets/StepFunctions ResultPath.png",
     "assets/Cognito CIP Architecture Social IdP.png",
-    "Cognito User Pools.pdf",
     "Driven",
     "Event"
   ]

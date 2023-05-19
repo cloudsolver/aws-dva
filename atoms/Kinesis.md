@@ -43,7 +43,7 @@ See: [Blog Post](https://repost.aws/knowledge-center/kinesis-readprovisionedthro
 **Answer**: Retry with Exponential Backoff, Increase the number of shards, pick a highly distributed shard key. 
 
 #Q What are the various capacity modes for Kinesis Data Stream?
-See:
+See: [DG](https://docs.aws.amazon.com/streams/latest/dev/how-do-i-size-a-stream.html)
 Answer: Provisioned and On-Demand. 
 	Provisioned.
 	- Use Provisioned to save cost and have predictable workload. 

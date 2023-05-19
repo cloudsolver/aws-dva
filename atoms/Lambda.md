@@ -21,12 +21,12 @@ AWS Lambda is a serverless, event-driven compute service that lets you run code 
 - Direct connection of lambda to RDS is risky. [[RDS#RDS Proxy]] is recommended for use with Lambda Functions to protect against bottlenecks to avoid too many connections to the database.  #BestPractice 
 
 #Q How can Lambda be exposed via HTTP?
-See: [Docs](https://docs.aws.amazon.com/lambda/latest/dg/services-alb.html)
+See: [DG λ ALB](https://docs.aws.amazon.com/lambda/latest/dg/services-alb.html) and [DG λ Fn URL](https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html)
 Answer: Either through an [[ALB]] with Target Groups, or via [[API Gateway]]. You must allow the[[ELB]] permissions to invoke Lambda.
 
 #Q How can you ensure that S3 Event Notifications on the same object are sent to Lambda?
-See:
-Answer: If Bucket versioning is not setup, it is possible that concurrent updates will result in only one event. Setup versioning on the S3 Bucket.
+*See*: [DG λ S3](https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html)
+**Answer**: If Bucket versioning is not setup, it is possible that concurrent updates will result in only one event. Setup versioning on the S3 Bucket.
 
 #Q What problem does Lambda Destination solve?
 See: [AWS Compute Blog Post] (https://aws.amazon.com/blogs/compute/introducing-aws-lambda-destinations/)
